@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* If you have tailwind.config.js, uncomment the line below */
+/* @config "../tailwind.config.js"; */
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background-color: #0a0a0a;
+  color: #f3f4f6;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
