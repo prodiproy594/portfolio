@@ -62,7 +62,7 @@ const instagramLink = "https://www.instagram.com/prodiproy1222/";
 const facebookLink = "https://web.facebook.com/prodiproy1222";
 const linkedinLink = "https://www.linkedin.com/in/prodip-roy-024648211/";
 const upworkLink = "https://www.upwork.com/freelancers/~01a97834a2908979e9";
-const fiverrLink = "https://www.fiverr.com/sellers/prodiproy594/";
+const fiverrLink = "https://www.fiverr.com/prodiproy594/";
 
 const fiverrLogo = "https://images.seeklogo.com/logo-png/37/1/fiverr-logo-png_seeklogo-376328.png";
 const upworkLogo = "https://cdn.freebiesupply.com/logos/large/2x/upwork-logo-png-transparent.png";
