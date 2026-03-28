@@ -380,9 +380,362 @@ const projectsData = [
     title: 'HubSpot Investor Journey', 
     category: 'automation', 
     description: 'Complex lead nurturing and deal pipeline automation setup for Syndi.fi investors.', 
-    image: 'image_c6778b.png', 
+    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/6afedd6c-ee47-a168-64a0-0c53603ea245.png', 
     tech: ['HubSpot', 'Automation', 'CRM'],
-    code: `<!-- HubSpot Workflow Logic Configuration -->\n<div style="background:#0f172a; color:#38bdf8; padding:30px; border-radius:12px; font-family:monospace;">\n  <strong>TRIGGER:</strong> Form Submission [Institutional Inquiry] <br/>\n  <strong>ACTION:</strong> Create Deal [Pipeline: Syndication] <br/>\n  <strong>DELAY:</strong> 2 Minutes <br/>\n  <strong>ACTION:</strong> Send HubSpot Email [Welcome Series]\n</div>`
+    code: `
+<!doctype html>
+<html lang="ro" dir="auto" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <title>Ai un plan de backup dacă piața imobiliară pică?</title>
+  <!--[if !mso]><!-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--<![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <style type="text/css">
+    #outlook a {
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      height: 100% !important;
+      width: 100% !important;
+    }
+
+    table,
+    td {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+
+    p {
+      display: block;
+      margin: 13px 0;
+    }
+
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    .cta-button:hover {
+      background-color: #e5992e !important;
+    }
+
+    @media only screen and (max-width:480px) {
+      .container-table {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+      
+      .mobile-stack {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        border-left: none !important;
+      }
+      
+      .mobile-padding {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+      }
+
+      .h1-mobile {
+        font-size: 26px !important;
+        line-height: 32px !important;
+      }
+      .h2-mobile {
+        font-size: 28px !important;
+        line-height: 34px !important;
+      }
+      .h3-mobile {
+        font-size: 22px !important;
+        line-height: 28px !important;
+      }
+      .text-large-mobile {
+        font-size: 28px !important;
+        line-height: 1.2 !important;
+      }
+      .body-text-mobile {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+      }
+
+      .mobile-margin-top {
+        margin-top: 25px !important;
+        padding-top: 25px !important;
+        border-top: 2px solid #F3F4F7 !important;
+      }
+
+      .header-spacing {
+        padding-bottom: 120px !important;
+      }
+    }
+  </style>
+  <!--[if mso]>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+</head>
+
+<body style="word-spacing:normal;background-color:#082059;margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+  <div aria-roledescription="email" style="background-color:#082059;" role="article" lang="ro" dir="auto">
+
+    <!-- SPACER TOP -->
+    <div style="margin:0px auto;max-width:600px; height: 30px; font-size: 1px; line-height: 1px;">&nbsp;</div>
+
+    <!-- 1. HEADER CARD -->
+    <div class="container-table" style="margin:0px auto;max-width:600px;background-color:#ffffff;border-radius:18px;overflow:hidden;">
+      <!--[if gte mso 9]>
+      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:420px;">
+        <v:fill type="tile" src="https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/Group%20200.png" color="#ffffff" />
+        <v:textbox inset="0,0,0,0">
+      <![endif]-->
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-image: url('https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/Group%20200.png'); background-size: cover; background-position: center bottom; background-repeat: no-repeat; background-color: #ffffff; border-radius: 18px;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                <tbody>
+                  <tr>
+                    <td align="center" style="font-size:0px;padding:30px 25px 15px 25px;word-break:break-word;">
+                      <img src="https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/logo%20(3).png" width="110" alt="syndifi" style="border:0; display:block;">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="font-size:0px;padding:10px 40px 180px 40px;word-break:break-word;" class="mobile-padding header-spacing">
+                      <div style="font-family: 'Montserrat', Arial, Helvetica, sans-serif;font-size:32px;line-height:40px;text-align:center;color:#0D57BA;font-weight:900;">
+                        <h1 style="margin: 0; font-family:'Montserrat', Arial, sans-serif; font-size: 32px; line-height: 40px; color:#0D57BA; font-weight: 900;" class="h1-mobile">Ai un plan de backup <br> dacă piața imobiliară <br> pică?</h1>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!--[if gte mso 9]>
+        </v:textbox>
+      </v:rect>
+      <![endif]-->
+    </div>
+
+    <!-- 2 & 3. MAIN BODY SECTION -->
+    <div class="container-table" style="background:#F3F4F7;background-color:#F3F4F7;margin:30px auto 0 auto;max-width:600px; border-radius: 18px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#F3F4F7;background-color:#F3F4F7;width:100%; border-radius: 18px;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0 0 0;text-align:center;">
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <!-- INTRO TEXT SECTION -->
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;padding-top:10px;padding-bottom:10px;word-break:break-word;" class="mobile-padding">
+                        <div style="font-family: 'Montserrat', Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;color:#082059; background-color: #ffffff; padding: 10px 25px; border-radius: 18px;" class="body-text-mobile">
+                          <p style="line-height: normal; margin: 10px 0; text-align: left; color:#082059; font-size: 16px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 500; mso-line-height-rule: exactly;">Salut, <br> <br> Imaginează-ți următorul scenariu. Ai cumpărat un apartament acum 2-3 ani. Prețurile creșteau. Toată lumea cumpăra. Era „momentul bun”. <br> Astăzi, tranzacțiile încep să scadă. <br> În 2025, la nivel național, s-au înregistrat mai puține vânzări decât în 2024. <br> În București-Ilfov, scăderea a fost de aproape 8,5%.</p>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <!-- HIGHLIGHT TEXT SECTION -->
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;padding-top:10px;padding-bottom:10px;word-break:break-word;" class="mobile-padding">
+                        <div style="font-family: 'Montserrat', Arial, sans-serif;font-size:30px;line-height:1.2;text-align:left;color:#55575d; background-color: #F3F4F7; padding: 15px 25px; border-radius: 18px;">
+                          <p style="line-height: normal; margin: 10px 0; text-align: center; color:#082059; font-size: 35px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 900; mso-line-height-rule: exactly;" class="text-large-mobile">Nu e panică.</p> 
+                          <p style="line-height: normal; margin: 10px 0; text-align: center; color:#082059; font-size: 35px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 600; mso-line-height-rule: exactly;" class="text-large-mobile">Dar nici euforie nu mai e.</p> 
+                          <p style="line-height: normal; margin: 10px 0; text-align: center; color:#082059; font-size: 16px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 500; mso-line-height-rule: exactly;" class="body-text-mobile">Între timp, prețurile au rămas sus. Chiriile au crescut… dar nu în același ritm. Asta înseamnă ceva simplu și periculos: randamentele s-au comprimat. <br> <br> Un apartament care părea atractiv la 5-6% brut acum câțiva ani, astăzi ajunge în multe cazuri la 3-4% brut. Iar din acel procent scazi taxe, perioade fără chiriaș, reparații, inflație.</p>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <!-- MARKET ANALYSIS SECTION -->
+                    <tr>
+                      <td align="left" style="font-size:0px;padding:10px 25px;padding-top:20px;padding-bottom:30px;word-break:break-word;" class="mobile-padding">
+                        <div style="font-family: 'Montserrat', Arial, sans-serif; background-color: #ffffff; padding: 40px 30px; border-radius: 18px;">
+                          <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                              <td class="mobile-stack" width="46%" style="vertical-align: middle; padding-right: 25px;">
+                                <p style="margin: 0; color: #082059; font-size: 24px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 700; line-height: 1.2;" class="h3-mobile">
+                                  Acum întrebarea reală: Dacă piața scade 15-20%, cum arată investiția ta?
+                                </p>
+                              </td>
+                              <td class="mobile-stack mobile-margin-top" width="54%" style="vertical-align: middle; border-left: 2px solid #F3F4F7; padding-left: 30px;">
+                                <p style="margin: 0 0 20px 0; color: #082059; font-size: 16px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 500; line-height: 1.4; mso-line-height-rule: exactly;" class="body-text-mobile">
+                                  Mai produce suficient cât să o ții fără stres? <br>
+                                  Sau devine o speranță legată de „poate își revine”?
+                                </p>
+                                <p style="margin: 0 0 20px 0; color: #082059; font-size: 16px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 500; line-height: 1.4; mso-line-height-rule: exactly;" class="body-text-mobile">
+                                  Și dacă tranzacțiile continuă să încetinească, unde îți vei muta capitalul?
+                                </p>
+                                <p style="margin: 0; color: #082059; font-size: 16px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 500; line-height: 1.4; mso-line-height-rule: exactly;" class="body-text-mobile">
+                                  Majoritatea investitorilor nu au un plan de backup. <br>
+                                  Au doar un plan de creștere.
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 4. CALL TO ACTION AREA -->
+    <div class="container-table" style="margin:0px auto;max-width:600px; padding: 45px 0 55px 0;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td align="center" style="padding: 0 40px;" class="mobile-padding">
+              <div style="font-family: 'Montserrat', Arial, Helvetica, sans-serif;text-align:center;">
+                <h2 style="margin: 0; color:#ffffff; font-size: 34px; font-weight: 900;" class="h2-mobile">Vrei să discutăm aplicat?</h2> 
+                <p style="margin: 15px 0 30px 0; color:#ffffff; font-size: 16px; font-weight: 500; line-height: 1.4;">Află despre cum ar trebui să arate un portofoliu pregătit pentru o corecție, poți programa o conversație cu unul dintre consultanții</p>
+              </div>
+              <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto;">
+                <tr>
+                  <td align="center" bgcolor="#f2a93b" style="border-radius:10px;background:#f2a93b;">
+                    <a href="https://meetings-eu1.hubspot.com/valentin14/valentin-discovery" style="display: inline-block; background: #f2a93b; color: #082059; font-family: 'Montserrat', Arial, sans-serif; font-size: 20px; font-weight: 800; text-decoration: none; padding: 16px 40px; border-radius: 10px;" target="_blank">Programează o discuție</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 5. FOOTER CARD SECTION -->
+    <div class="container-table" style="margin:0 auto;max-width:600px; border-radius: 18px; overflow: hidden; background-color: #F3F4F7;">
+      <!--[if gte mso 9]>
+      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:650px;">
+        <v:fill type="tile" src="https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/gradient%20mask%20(3).png" color="#F3F4F7" />
+        <v:textbox inset="0,0,0,0">
+      <![endif]-->
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-image: url('https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/gradient%20mask%20(3).png'); background-size: cover; background-position: center bottom; background-repeat: no-repeat; background-color: #F3F4F7; border-radius: 18px;">
+        <tbody>
+          <tr>
+            <td style="padding: 55px 30px 45px 30px;" class="mobile-padding" align="center">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="padding-bottom: 30px;">
+                        <div style="font-family: 'Montserrat', Arial, Helvetica, sans-serif; color:#0D57BA;">
+                          <h3 style="margin: 0 0 20px 0; text-align: center; color:#0D57BA; font-size: 26px; font-weight: 800; line-height: 1.2;" class="h3-mobile">Pentru că nu toate activele reacționează la fel.</h3> 
+                          <p style="margin: 0; text-align: center; color:#0D57BA; font-size: 15px; font-weight: 500; line-height: 1.6;" class="body-text-mobile">În următorul email vom compara mai multe tipuri de investiții imobiliare și vom vedea care rezistă mai bine când piața intră în blocaj.</p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding-bottom: 40px;">
+                        <p style="margin: 0 0 10px 0; text-align: center; color:#0D57BA; font-size: 15px; font-weight: 600; font-family: 'Montserrat', Arial, sans-serif;">Pe curând,</p>
+                        <img src="https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/logo%20(3).png" width="80" alt="syndifi" style="display: block; border: 0; margin: 0 auto;">
+                      </td>
+                    </tr>
+                    
+                    <!-- REBUILT SOCIAL CARD FOR PERFECT ROUNDING -->
+                    <tr>
+                      <td align="center" style="padding: 0;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" style="background-color: #ffffff; border-radius: 18px; border-collapse: separate;">
+                          <tbody>
+                            <tr>
+                              <td align="center" style="padding: 35px 20px 15px 20px; border-radius: 18px 18px 0 0;">
+                                <div style="text-align: center;">
+                                  <a style="display:inline-block; margin: 0 12px; text-decoration: none;" href="https://www.linkedin.com/company/syndifi/" target="_blank"><img width="40" src="https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/Frame%20282.png" alt="LinkedIn"></a> 
+                                  <a style="display:inline-block; margin: 0 12px; text-decoration: none;" href="https://www.instagram.com/syndi.fi/" target="_blank"><img width="40" src="https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/Frame%20281.png" alt="Instagram"></a> 
+                                  <a style="display:inline-block; margin: 0 12px; text-decoration: none;" href="https://www.linkedin.com/company/syndifi/" target="_blank"><img width="40" src="https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/Frame%20280.png" alt="Facebook"></a>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" style="padding: 0 40px;">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                  <tr>
+                                    <td style="border-top: 1px solid #f2a93b; font-size: 1px; line-height: 1px;">&nbsp;</td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" style="padding: 25px 35px 35px 35px; border-radius: 0 0 18px 18px;" class="mobile-padding">
+                                <div style="font-family: 'Montserrat', Arial, sans-serif; font-size: 11px; color: #0D57BA; text-align: center; font-weight: 500; line-height: 1.5;">
+                                  <p style="line-height: 1.4; margin: 0; color: #0D57BA;">*Prezenta comunicare are exclusiv scop informativ și educativ, investițiile se vor putea realiza doar după obținerea de către societatea noastră a autorizației de furnizor de crowdfunding din partea A.S.F., momentan societatea fiind în cursul procesului de autorizare, încă nefinalizat.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!--[if gte mso 9]>
+        </v:textbox>
+      </v:rect>
+      <![endif]-->
+    </div>
+
+    <!-- 6. LEGAL FOOTER -->
+    <div class="container-table" style="margin:0px auto;max-width:600px;padding: 30px 0 40px 0;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td align="center" style="font-family: 'Montserrat', Arial, Helvetica, sans-serif; font-size: 11px; color: #ffffff; line-height: 1.5;">
+              <p style="margin: 0;">Syndifi | București, România</p>
+              <p style="margin: 8px 0 0 0;">
+                <a href="#" style="color: #ffffff; text-decoration: underline;">Dezabonare</a> | 
+                <a href="#" style="color: #ffffff; text-decoration: underline;">Gestionare preferințe</a>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</body>
+
+</html>`
   },
   { 
     id: 'lotessa-welcome', 
