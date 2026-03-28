@@ -82,7 +82,7 @@ const projectsData = [
     title: 'Yoga Marrakech Retreat', 
     category: 'email', 
     description: 'Premium Mailchimp campaign for Yoga w Manasi with mosaic gallery and urgency banners.', 
-    image: 'image_c677ad.png', 
+    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/31aead2b-735d-14f7-bb5e-74012e060ae2.png', 
     tech: ['Mailchimp', 'Campaign', 'Design'],
     code: `<!DOCTYPE html><html><body style="font-family:Arial, sans-serif; background:#F9F7F5; padding:20px;"><div style="max-width:600px; margin:auto; background:#fff; padding:40px; border-radius:8px; border:1px solid #eee;"><h1 style="color:#13bfb1; text-align:center;">Yoga w Manasi</h1><p style="text-align:center;">Join us in Morocco for a transformative experience!</p></div></body></html>`
   },
