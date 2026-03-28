@@ -84,7 +84,296 @@ const projectsData = [
     description: 'Premium Mailchimp campaign for Yoga w Manasi with mosaic gallery and urgency banners.', 
     image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/31aead2b-735d-14f7-bb5e-74012e060ae2.png', 
     tech: ['Mailchimp', 'Campaign', 'Design'],
-    code: `<!DOCTYPE html><html><body style="font-family:Arial, sans-serif; background:#F9F7F5; padding:20px;"><div style="max-width:600px; margin:auto; background:#fff; padding:40px; border-radius:8px; border:1px solid #eee;"><h1 style="color:#13bfb1; text-align:center;">Yoga w Manasi</h1><p style="text-align:center;">Join us in Morocco for a transformative experience!</p></div></body></html>`
+    code: `
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="x-apple-disable-message-reformatting"> 
+    <title>Yoga w Manasi - Soft Flow</title>
+    
+    <!--[if mso]>
+        <style>
+            * {
+                font-family: Georgia, serif !important;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- Google Fonts (Hidden from Outlook) -->
+    <!--[if !mso]><!-->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Della+Respira&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Della+Respira&display=swap');
+    </style>
+    <!--<![endif]-->
+
+    <style>
+        /* CSS Reset */
+        html, body { margin: 0 auto !important; padding: 0 !important; height: 100% !important; width: 100% !important; background-color: #F9F7F5; }
+        * { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+        div[style*="margin: 16px 0"] { margin: 0 !important; }
+        table, td { mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; }
+        table { border-spacing: 0 !important; border-collapse: collapse !important; table-layout: fixed !important; margin: 0 auto !important; }
+        img { -ms-interpolation-mode:bicubic; }
+        
+        /* iOS Blue Link Fix */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* Mobile Responsive Styles */
+        @media screen and (max-width: 600px) {
+            .email-container { width: 100% !important; margin: auto !important; }
+            .stack-column, .stack-column-center { display: block !important; width: 100% !important; max-width: 100% !important; direction: ltr !important; }
+            .stack-column-center { text-align: center !important; }
+            .center-on-mobile { text-align: center !important; }
+            .fluid-img { width: 100% !important; max-width: 100% !important; height: auto !important; }
+            .mobile-padding { padding: 30px 20px !important; }
+            .mobile-hide { display: none !important; }
+            .h1-mobile { font-size: 28px !important; line-height: 38px !important; }
+            .wrapper-padding { padding: 25px 20px !important; }
+        }
+
+        /* Hover Effects */
+        .btn-hover:hover { opacity: 0.9 !important; transform: translateY(-1px); }
+    </style>
+</head>
+
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #F9F7F5;">
+    <center style="width: 100%; background-color: #F9F7F5;">
+    
+        <!-- PREVIEW TEXT -->
+        <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+            December arrives like a hush. Plus: Marrakech Retreat & 2026 Teacher Trainings inside.
+        </div>
+
+        <!-- MAIN EMAIL CONTAINER -->
+        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: 0 auto;" class="email-container">
+            
+            <!-- HEADER (Logo) -->
+            <tr>
+                <td style="padding: 40px 0 30px 0; text-align: center;">
+                    <a href="https://www.yogawithmanasi.com/" target="_blank" style="text-decoration: none;">
+                        <img src="https://sawa-dev-2-storage-bucket.storage.googleapis.com/profiles/yguepz6kkkarwxxv-cd3e8.png" width="140" alt="Yoga w Manasi" style="width: 140px; max-width: 140px; height: auto; display: block; margin: 0 auto; border: 0;">
+                    </a>
+                </td>
+            </tr>
+
+            <!-- MAIN CARD (Rounded Corners for Softness) -->
+            <tr>
+                <td style="background-color: #ffffff; border-radius: 24px; overflow: hidden; box-shadow: 0 15px 35px rgba(0,0,0,0.05);">
+                    
+                    <!-- HERO IMAGE (Rounded Bottom for Flow) -->
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding: 15px 15px 0 15px;">
+                                <!-- Replace text=... with your actual image -->
+                                <img src="https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/52fee64e-8b15-32df-7436-17173b327fe3.jpeg" width="570" height="" alt="December Stillness" border="0" style="width: 100%; max-width: 570px; height: auto; border-radius: 16px 16px 0 0; display: block;" class="fluid-img">
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!-- INTRO TEXT -->
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding: 50px 50px 30px 50px; font-family: 'Alegreya', Georgia, serif; font-size: 18px; line-height: 32px; color: #4A5568; text-align: center;" class="mobile-padding">
+                                <h2 class="h1-mobile" style="margin: 0 0 25px; font-family: 'Della Respira', Georgia, serif; font-size: 32px; line-height: 42px; color: #016e8f;">A hush that opens the heart.</h2>
+                                
+                                <p style="margin: 0 0 20px;">Dear wonderful being,</p>
+                                
+                                <p style="margin: 0 0 20px;">December arrives like a hush. It’s the month of thresholds. Of long nights that ask us to rest deeper. We begin to sense what wants to be gathered close, and what is ready to be set down.</p>
+                                
+                                <p style="margin: 0 0 20px;">This newsletter is an invitation—a gentle gathering of ways to meet yourself again this month.</p>
+                                
+                                <p style="margin: 0 0 20px; font-style: italic; color: #13bfb1;">So chai up, settle in, and read on.</p>
+                                
+                                <!-- Soft Divider Symbol -->
+                                <p style="margin: 30px 0 0; color: #016e8f; font-size: 24px;">~</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!-- SUB-HEADER -->
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding: 0 20px 20px 20px; text-align: center;">
+                                <h3 style="margin: 0; font-family: 'Della Respira', Georgia, serif; font-size: 22px; color: #016e8f;">Unfolding at Macha Yoga</h3>
+                                <p style="margin: 8px 0 0; font-family: sans-serif; font-size: 11px; color: #99AAB5; text-transform: uppercase; letter-spacing: 2px;">Bray • December</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!-- EVENTS (Soft Background Cards) -->
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding: 20px 25px 40px 25px;" align="center" class="mobile-padding">
+                                <!-- Ghost Table for Outlook -->
+                                <!--[if mso]>
+                                <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                <tr>
+                                <td valign="top" width="275">
+                                <![endif]-->
+                                
+                                <!-- KIRTAN CARD -->
+                                <div style="display:inline-block; margin: 10px; width:100%; max-width:250px; vertical-align:top;" class="stack-column-center">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                        <tr>
+                                            <td style="background-color: #E6F7F6; border-radius: 16px; padding: 25px; text-align: center;">
+                                                <img src="https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/39b97226-ec9d-2774-a273-dbe9caa19bb4.png" width="200" alt="Kirtan" style="width: 100%; max-width: 200px; height: auto; border-radius: 50%; margin-bottom: 20px;" class="fluid-img">
+                                                
+                                                <p style="margin: 0 0 10px; font-family: sans-serif; font-size: 11px; font-weight: bold; color: #13bfb1; text-transform: uppercase; letter-spacing: 1px;">Sat 6 Dec • 7 PM</p>
+                                                <h4 style="margin: 0 0 10px; font-family: 'Della Respira', Georgia, serif; font-size: 18px; color: #016e8f;">Chant from Your Heart</h4>
+                                                <p style="margin: 0 0 20px; font-family: 'Alegreya', Georgia, serif; font-size: 15px; line-height: 22px; color: #4A5568;">Connect with the right souls, chant to heal our voices.</p>
+                                                <a href="#" style="color: #016e8f; font-family: sans-serif; font-size: 12px; font-weight: bold; text-decoration: none; border: 1px solid #016e8f; padding: 8px 16px; border-radius: 20px; display: inline-block;">Book Kirtan</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                
+                                <!--[if mso]>
+                                </td>
+                                <td valign="top" width="275">
+                                <![endif]-->
+                                
+                                <!-- MOON CARD -->
+                                <div style="display:inline-block; margin: 10px; width:100%; max-width:250px; vertical-align:top;" class="stack-column-center">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                        <tr>
+                                            <td style="background-color: #E6F7F6; border-radius: 16px; padding: 25px; text-align: center;">
+                                                <img src="https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/09ee98dd-7df0-a351-f936-680f90955794.png" width="200" alt="New Moon" style="width: 100%; max-width: 200px; height: auto; border-radius: 50%; margin-bottom: 20px;" class="fluid-img">
+                                                
+                                                <p style="margin: 0 0 10px; font-family: sans-serif; font-size: 11px; font-weight: bold; color: #13bfb1; text-transform: uppercase; letter-spacing: 1px;">Fri 19 Dec • 7:30 PM</p>
+                                                <h4 style="margin: 0 0 10px; font-family: 'Della Respira', Georgia, serif; font-size: 18px; color: #016e8f;">New Moon Circles</h4>
+                                                <p style="margin: 0 0 20px; font-family: 'Alegreya', Georgia, serif; font-size: 15px; line-height: 22px; color: #4A5568;">Weave together movement, breath, and intention.</p>
+                                                <a href="#" style="color: #016e8f; font-family: sans-serif; font-size: 12px; font-weight: bold; text-decoration: none; border: 1px solid #016e8f; padding: 8px 16px; border-radius: 20px; display: inline-block;">Book Moon</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                
+                                <!--[if mso]>
+                                </td>
+                                </tr>
+                                </table>
+                                <![endif]-->
+                            </td>
+                        </tr>
+
+                        <!-- YIN REVIVE (Wide Soft Card) -->
+                        <tr>
+                            <td style="padding: 0 45px 50px 45px;" class="mobile-padding">
+                                <div style="background-color: #FDFBF7; border-radius: 16px; border: 1px solid #EAEAEA;">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                        <tr>
+                                            <td style="padding: 35px; text-align: center;" class="wrapper-padding">
+                                                <p style="margin: 0 0 10px; font-family: sans-serif; font-size: 11px; font-weight: bold; color: #13bfb1; text-transform: uppercase; letter-spacing: 2px;">Wednesdays 11:15 AM</p>
+                                                <h3 style="margin: 0 0 15px; font-family: 'Della Respira', Georgia, serif; font-size: 24px; color: #016e8f;">Yin REVIVE</h3>
+                                                <p style="margin: 0 0 20px; font-family: 'Alegreya', Georgia, serif; font-size: 16px; line-height: 26px; color: #4A5568;">
+                                                    A mid-week shake out! Refreshing body and mind with a blend of Yin Yoga and Qi Gong.
+                                                </p>
+                                                <a href="#" style="font-size: 13px; font-family: sans-serif; color: #ffffff; text-decoration: none; background-color: #13bfb1; padding: 10px 25px; border-radius: 30px; display: inline-block; font-weight: bold;">Book Your Spot</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <p style="margin: 40px 0 0; color: #016e8f; font-size: 24px; text-align: center;">~</p>
+                            </td>
+                        </tr>
+
+                        <!-- TEACHER TRAINING (Centered & Clean) -->
+                        <tr>
+                            <td style="padding: 0 40px 40px 40px;" class="mobile-padding">
+                                <h3 style="margin: 0 0 30px; font-family: 'Della Respira', Georgia, serif; font-size: 22px; color: #016e8f; text-align: center; letter-spacing: 1px;">Teacher Trainings</h3>
+                                
+                                <!-- 200 HR -->
+                                <div style="border: 1px solid #E6F7F6; border-radius: 16px; padding: 30px; text-align: center; margin-bottom: 25px;">
+                                    <h4 style="margin: 0 0 10px; font-family: 'Della Respira', Georgia, serif; font-size: 22px; color: #333333;">Foundational 200 Hours</h4>
+                                    <p style="margin: 0 0 15px; font-family: sans-serif; font-size: 11px; font-weight: bold; color: #13bfb1; text-transform: uppercase; letter-spacing: 1px;">Sept 2026 | Dublin</p>
+                                    <p style="margin: 0 0 20px; font-family: 'Alegreya', Georgia, serif; font-size: 15px; color: #4A5568;">Authentic Teachings • Energetic Approach • Trauma Informed</p>
+                                    <a href="mailto:sahajaschoolofyoga@gmail.com" style="color: #016e8f; font-family: sans-serif; font-size: 13px; font-weight: bold; text-decoration: underline;">Express Interest</a>
+                                </div>
+
+                                <!-- 50 HR -->
+                                <div style="background-color: #F4FAFB; border-radius: 16px; padding: 30px; text-align: center;">
+                                    <h4 style="margin: 0 0 10px; font-family: 'Della Respira', Georgia, serif; font-size: 20px; color: #333333;">YIN WITHIN - 50 Hrs</h4>
+                                    <p style="margin: 0 0 15px; font-family: sans-serif; font-size: 11px; font-weight: bold; color: #13bfb1; text-transform: uppercase; letter-spacing: 1px;">Feb - April 2026 | Bray</p>
+                                    <p style="margin: 0 0 20px; font-family: 'Alegreya', Georgia, serif; font-size: 15px; color: #4A5568;">Roots of Yin, Meridians, Chakras & Alchemy of Stillness.</p>
+                                    <a href="mailto:yogawithmanasi1@gmail.com" style="color: #016e8f; font-family: sans-serif; font-size: 13px; font-weight: bold; text-decoration: underline;">Get Details</a>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <!-- RETREAT (Rounded Card Float) -->
+                        <tr>
+                            <td style="padding: 10px 20px 50px 20px;" class="mobile-padding">
+                                <div style="background-color: #016e8f; border-radius: 20px; overflow: hidden;">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                        <tr>
+                                            <td style="padding: 40px;" class="wrapper-padding">
+                                                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                    <tr>
+                                                        <!-- Text -->
+                                                        <td valign="middle" class="stack-column-center" width="60%" style="padding-right: 20px;">
+                                                            <p style="margin: 0 0 10px; font-family: sans-serif; font-size: 12px; font-weight: bold; color: #9dd8d6; text-transform: uppercase; letter-spacing: 1px;">14 - 21 Feb 2026</p>
+                                                            <h3 style="margin: 0 0 15px; font-family: 'Della Respira', Georgia, serif; font-size: 24px; color: #ffffff;">Spring Forward in Marrakech</h3>
+                                                            <p style="margin: 0 0 25px; font-family: 'Alegreya', Georgia, serif; font-size: 15px; line-height: 24px; color: #E0F7FA;">
+                                                                Immersed in colors, scents, and rhythms. Nourishing meals, daily practice, and rest.
+                                                            </p>
+                                                            <a href="mailto:yogawithmanasi1@gmail.com" style="background-color: #ffffff; color: #016e8f; font-family: sans-serif; font-size: 13px; font-weight: bold; text-decoration: none; padding: 10px 20px; border-radius: 30px; display: inline-block;">Get Info</a>
+                                                        </td>
+                                                        <!-- Image -->
+                                                        <td valign="middle" class="stack-column-center" width="40%">
+                                                            <div style="margin-top: 0;">
+                                                                <img src="https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/a7acb259-a0c0-6943-2340-e75f202bb001.png" width="180" alt="Marrakech" style="width: 100%; max-width: 180px; height: auto; border-radius: 50%; border: 3px solid rgba(255,255,255,0.2); margin-top: 20px;" class="fluid-img">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </table>
+                    <!-- END CONTENT -->
+                    
+                </td>
+            </tr>
+
+            <!-- FOOTER -->
+            <tr>
+                <td style="padding: 40px 20px; font-family: 'Alegreya', Georgia, serif; font-size: 14px; line-height: 24px; color: #8899A6; text-align: center;">
+                    <p style="margin: 0 0 10px; color: #13bfb1;">~ Weekly Public Classes ~</p>
+                    <p style="margin: 0 0 20px;">
+                        Mon/Wed 10am @ Macha Yoga • Tue Evening @ Mandala Yoga<br>
+                        Wed 11:15am @ Macha Yoga • Wed 8pm Online
+                    </p>
+                    
+                    <p style="margin: 0 0 20px; font-size: 16px; color: #333333;">
+                        Much Love, Le Grá! Jai Ma!<br>
+                        <strong>M A N A S I</strong>
+                    </p>
+                    
+                    <p style="margin: 30px 0 0; font-size: 12px;">
+                        <a href="#" style="color: #8899A6; text-decoration: underline;">Unsubscribe</a> | <a href="#" style="color: #8899A6; text-decoration: underline;">Browser</a>
+                    </p>
+                </td>
+            </tr>
+
+        </table>
+    </center>
+</body>
+</html>`
   },
   { 
     id: 'hubspot-automation', 
