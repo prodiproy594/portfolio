@@ -1607,7 +1607,7 @@ const App = () => {
                       <div className="p-3 md:p-4 bg-white/5 rounded-xl md:rounded-2xl group-hover:bg-[#14a800]/10 transition-colors">
                         <img src={upworkLogo} alt="Upwork" className="h-6 md:h-8 w-auto max-w-[100px] md:max-w-[120px] object-contain" />
                       </div>
-                      <div className="bg-[#14a800] text-white px-3 md:px-4 py-1 md:py-1.5 rounded-full text-[8px] md:text-[10px] font-black uppercase tracking-widest font-poppins flex items-center gap-1.5"><Award size={10} md:size={12} /> Top Rated</div>
+                      <div className="bg-[#14a800] text-white px-3 md:px-4 py-1 md:py-1.5 rounded-full text-[8px] md:text-[10px] font-black uppercase tracking-widest font-poppins flex items-center gap-1.5"><Award size={10} md:size={12} /> Top Rated Candidate</div>
                    </div>
                    <h3 className="text-xl md:text-2xl font-black uppercase italic mb-6 md:mb-8 font-poppins leading-none">Upwork Expert</h3>
                    <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8 font-mono">
