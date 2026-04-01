@@ -1612,7 +1612,7 @@ const App = () => {
                    <h3 className="text-xl md:text-2xl font-black uppercase italic mb-6 md:mb-8 font-poppins leading-none">Upwork Expert</h3>
                    <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8 font-mono">
                       <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                        <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">179+</p>
+                        <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">182+</p>
                         <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Total Hours</p>
                       </div>
                       <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
