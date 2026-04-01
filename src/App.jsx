@@ -2400,7 +2400,7 @@ const App = () => {
                         <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Orders Done</p>
                       </div>
                       <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                        <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">256+</p>
+                        <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">257+</p>
                         <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Reviews</p>
                       </div>
                    </div>
