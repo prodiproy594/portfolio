@@ -742,7 +742,7 @@ const projectsData = [
     title: 'Lotessa Welcome Series', 
     category: 'email', 
     description: 'Multi-stage onboarding HTML template for Lotessa on Mailjet, optimized for user retention.', 
-    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/55b1a4e3-a9cc-1f4a-1af6-155bf89ea23c.jpeg', 
+    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/284a9e8e-dece-2c71-8244-69b98bda7c8a.png', 
     tech: ['Mailjet', 'MJML', 'Onboarding'],
     code: `<!DOCTYPE html>
 <html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -1059,6 +1059,769 @@ const projectsData = [
 </body>
 </html>`
   },
+
+  { 
+    id: 'Outreach Campaign', 
+    title: 'HTML Email Template Designs For Outreach Campaign', 
+    category: 'email', 
+    description: 'Custom-designed HTML email templates optimized for outreach campaigns, ensuring responsive layouts, engaging visuals, and clear call-to-actions that drive results.', 
+    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/284a9e8e-dece-2c71-8244-69b98bda7c8a.png', 
+    tech: ['Mailshake', 'html', 'campaign'],
+    code: `
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Spartan SEM - Editorial Authority</title>
+    <!--[if mso]>
+  <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+    <style type="text/css">
+        /* RESET & BASE */
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        /* Brand Font Stack: STRICTLY SANS-SERIF */
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+            background-color: #FFF8EF;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #140A09;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #FFF8EF;
+            padding: 20px 0;
+        }
+
+        .main {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+
+        /* TEXT STYLES */
+        .headline {
+            font-size: 26px;
+            line-height: 1.2;
+            font-weight: bold;
+            color: #140A09;
+            margin: 0 0 16px 0;
+            mso-line-height-rule: exactly;
+        }
+
+        .body-text {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #140A09;
+            margin: 0 0 24px 0;
+            mso-line-height-rule: exactly;
+        }
+
+        .eyebrow {
+            font-size: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            color: #D88D2A;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        /* COMPONENTS */
+        .btn {
+            background-color: #A12F25;
+            color: #ffffff !important;
+            text-decoration: none;
+            padding: 18px 36px;
+            border-radius: 2px;
+            font-weight: bold;
+            display: inline-block;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        .pill {
+            background-color: #ffffff;
+            border: 1px solid #D88D2A;
+            padding: 8px 12px;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #681211;
+        }
+
+        .box-title {
+            font-size: 18px;
+            line-height: 1.3;
+            font-weight: bold;
+            color: #681211;
+            margin: 0 0 12px 0;
+        }
+
+        .box-text {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #140A09;
+            margin: 0;
+        }
+
+        /* TESTIMONIAL */
+        .testimonial-area {
+            background-color: #FFF8EF;
+            padding: 60px 40px;
+            text-align: center;
+            border-top: 1px solid #f2ece4;
+        }
+
+        .quote-text {
+            font-size: 17px;
+            line-height: 1.5;
+            color: #140A09;
+            font-weight: normal;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .quote-source {
+            font-size: 13px;
+            font-weight: bold;
+            color: #A12F25;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        /* FOUNDER SECTION */
+        .founder-bio {
+            background-color: #ffffff;
+            padding: 40px 50px;
+            border-top: 1px solid #f2ece4;
+        }
+
+        .headshot {
+            border: 3px solid #EAB14C;
+            padding: 3px;
+            border-radius: 2px;
+            background-color: #ffffff;
+        }
+
+        .footer {
+            padding: 60px 40px;
+            text-align: center;
+            background-color: #140A09;
+            color: #FFF8EF;
+        }
+
+        /* RESPONSIVE MEDIA QUERIES */
+        @media screen and (max-width: 600px) {
+            .content-padding {
+                padding: 30px 20px !important;
+            }
+
+            .headline {
+                font-size: 24px !important;
+                line-height: 1.3 !important;
+            }
+
+            .body-text {
+                font-size: 14px !important;
+                line-height: 1.5 !important;
+            }
+
+            .main {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .stack {
+                display: block !important;
+                width: 100% !important;
+                box-sizing: border-box !important;
+            }
+
+            .mobile-center {
+                text-align: center !important;
+            }
+
+            .mobile-padding-top {
+                padding-top: 30px !important;
+            }
+
+            .col-stack {
+                display: block !important;
+                width: 100% !important;
+                padding: 0 !important;
+            }
+
+            .pill-stack {
+                display: block !important;
+                width: 100% !important;
+                margin: 0 0 10px 0 !important;
+                text-align: center !important;
+            }
+
+            .img-max {
+                width: 100% !important;
+                max-width: 200px !important;
+                margin: 0 auto !important;
+                height: auto !important;
+            }
+
+            .btn {
+                display: block !important;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                box-sizing: border-box;
+                width: 100% !important;
+            }
+
+            .mobile-box-spacer {
+                height: 15px !important;
+                display: block !important;
+            }
+
+            .equal-height-cell {
+                border-bottom: 1px solid #EAB14C !important;
+                margin-bottom: 15px !important;
+                display: block !important;
+                width: 100% !important;
+                box-sizing: border-box !important;
+            }
+
+            .testimonial-area {
+                padding: 40px 20px !important;
+            }
+
+            .founder-bio {
+                padding: 40px 20px !important;
+            }
+        }
+    </style>
+</head>
+
+<body style="margin:0; padding:0; background-color:#FFF8EF;">
+    <div class="wrapper">
+        <!--[if mso]>
+    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation">
+    <tr>
+    <td align="center" valign="top" width="600">
+    <![endif]-->
+        <table role="presentation" class="main" align="center" cellspacing="0" cellpadding="0" border="0" width="100%"
+            style="max-width: 600px; box-shadow: 0 10px 30px rgba(20, 10, 9, 0.05);">
+
+            <!-- Top Brand Accent Bar -->
+            <tr>
+                <td height="6" style="background-color: #681211; line-height: 6px; font-size: 6px;">&nbsp;</td>
+            </tr>
+
+            <!-- Logo Header -->
+            <tr>
+                <td style="padding: 30px 0; text-align: center; background-color: #ffffff;">
+                    <a href="https://spartansem.com/"><img
+                            src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-c6ec832/spartansem.com/wp-content/uploads/2026/01/spartan-horizontal-logo-1024x245.png"
+                            alt="Spartan SEM" width="180" border="0"
+                            style="display: block; margin: 0 auto; max-width: 180px;"></a>
+                </td>
+            </tr>
+
+            <!-- Hero Split Section -->
+            <tr>
+                <td style="padding: 40px 50px; background-color: #ffffff;" class="content-padding">
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                            <!-- Text Side -->
+                            <td width="300" valign="middle" class="stack mobile-center">
+                                <span class="eyebrow" style="color:#A12F25;">Expertise for Consultancies</span>
+                                <h1 class="headline">Visibility matters. The <span style="color:#A12F25;">right
+                                        partner</span> matters too.</h1>
+                                <p class="body-text">
+                                    The goal is not just more exposure. It is getting your firm in front of the right
+                                    buyers when they are evaluating options.
+                                </p>
+                                <div class="btn-wrap">
+                                    <a href="https://calendly.com/spartansem/complimentary-consultation/"
+                                        class="btn">Book a Strategy Call</a>
+                                </div>
+                            </td>
+                            <!-- Image Side -->
+                            <td width="200" valign="middle" style="padding-left: 30px;"
+                                class="stack mobile-padding-top mobile-center">
+                                <img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2026/01/spartan-logo-hero-bright.webp"
+                                    alt="Spartan SEM Strategy" width="220" border="0" class="img-max"
+                                    style="width: 100%; max-width: 220px; height: auto; display: block; margin: 0 auto;">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Narrative Section -->
+            <tr>
+                <td style="padding: 60px 50px; background-color: #FFF8EF;" class="content-padding">
+
+                    <!-- Pillars -->
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"
+                        style="margin-bottom: 40px;">
+                        <tr>
+                            <td align="center" style="font-size: 0;">
+                                <div class="pill-stack" style="display: inline-block; padding: 5px;">
+                                    <div class="pill">Founder-led strategy</div>
+                                </div>
+                                <div class="pill-stack" style="display: inline-block; padding: 5px;">
+                                    <div class="pill">High-intent visibility</div>
+                                </div>
+                                <div class="pill-stack" style="display: inline-block; padding: 5px;">
+                                    <div class="pill">Clear accountability</div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <p class="body-text"
+                        style="font-weight: bold; font-size: 18px; color: #A12F25; margin-bottom: 20px;">
+                        A simpler standard for growth.
+                    </p>
+                    <p class="body-text" style="margin-bottom: 40px;">
+                        Spartan SEM was built for businesses tired of jargon and vanity metrics. We focus on showing up
+                        where the right buyers are searching and tracking what actually drives growth.
+                    </p>
+
+                    <!-- Equal Height Boxes Section -->
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"
+                        style="table-layout: fixed;">
+                        <tr>
+                            <!-- Box 1 -->
+                            <td width="240" valign="top" class="stack equal-height-cell"
+                                style="background-color: #ffffff; border: 1px solid #EAB14C; padding: 25px;">
+                                <p class="box-title" style="margin-top:0;">What Spartan brings</p>
+                                <p class="box-text">Direct ownership, transparent strategy, and visibility work built
+                                    around how buyers actually search and shortlist providers.</p>
+                            </td>
+                            <!-- Spacer Column -->
+                            <td width="20" class="stack mobile-box-spacer" style="font-size: 0; line-height: 0;">&nbsp;
+                            </td>
+                            <!-- Box 2 -->
+                            <td width="240" valign="top" class="stack equal-height-cell"
+                                style="background-color: #ffffff; border: 1px solid #EAB14C; padding: 25px;">
+                                <p class="box-title" style="margin-top:0;">What you leave with</p>
+                                <p class="box-text">A clearer view of where visibility is strong or weak, where demand
+                                    exists, and what practical next steps make sense.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Testimonial Section -->
+            <tr>
+                <td class="testimonial-area content-padding">
+                    <span class="eyebrow">What clients notice</span>
+                    <p class="quote-text">
+                        “Alec has had a tremendous impact on my practice in only a few months. Prior to working with
+                        Spartan SEM, I had a website and was running Google Ads, but did not have a good handle with my
+                        return on investment. Alec helped me to optimize my dollars spent and each month he goes over
+                        the performance, always optimizing so I have an objective sense of how things are going. In the
+                        past two weeks I’ve hit record numbers with both new patients and patient visits, largely due to
+                        our new approach with online presence. I would highly recommend working with Alec!”
+                    </p>
+                    <p class="quote-source">Jordan Savara<br />Owner, Crystal Springs Chiropractic</p>
+                </td>
+            </tr>
+
+            <!-- Founder Section -->
+            <tr>
+                <td class="founder-bio content-padding">
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                            <td width="100" valign="top" class="stack mobile-center">
+                                <img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2026/01/alec-headshot-723x1024.webp"
+                                    alt="Alec" width="100" border="0" class="headshot"
+                                    style="display: block; margin: 0 auto;">
+                            </td>
+                            <td valign="middle" style="padding-left: 25px;"
+                                class="stack mobile-padding-top mobile-center">
+                                <p style="margin:0; font-size: 14px; font-weight: bold; color: #140A09;">Alec</p>
+                                <p
+                                    style="margin:0; font-size: 12px; color: #A12F25; text-transform: uppercase; letter-spacing: 1px;">
+                                    Founder, Spartan SEM</p>
+                                <p style="margin:10px 0 0 0; font-size: 13px; line-height: 1.5; color: #444444;">Helping
+                                    consultancies turn visibility into a predictable engine for growth.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Checkpoint Section -->
+            <tr>
+                <td style="padding: 60px 50px; background-color: #FFF8EF;" class="content-padding">
+                    <span class="eyebrow" style="color:#A12F25;">What good looks like</span>
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                            <td
+                                style="padding: 12px 0; font-size: 14px; color: #140A09; border-bottom: 1px solid #e4d8c9;">
+                                • Are you visible when your ICP is actively looking?</td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="padding: 12px 0; font-size: 14px; color: #140A09; border-bottom: 1px solid #e4d8c9;">
+                                • Are you showing up around the right problems?</td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="padding: 12px 0; font-size: 14px; color: #140A09; border-bottom: 1px solid #e4d8c9;">
+                                • Does your digital presence reinforce credibility quickly?</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 12px 0; font-size: 14px; color: #140A09;">• Can you clearly see what is
+                                working next?</td>
+                        </tr>
+                    </table>
+                    <div style="padding-top: 35px; text-align: left;">
+                        <a href="https://spartansem.com/about-us/" class="btn">Learn More</a>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+                <td class="footer">
+                    <div align="center" style="margin-bottom: 25px;">
+                        <a href="https://spartansem.com/"><img
+                                src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2025/09/spartan-horizontal-logo-white.png"
+                                alt="Spartan SEM" width="140" border="0" style="max-width: 140px;"></a>
+                    </div>
+                    <p style="margin:0 0 20px 0;">
+                        <strong style="color: #EAB14C; letter-spacing: 1px;">SPARTAN SEM</strong><br />
+                        <a href="https://spartansem.com/"
+                            style="color: #FFF8EF; text-decoration: none; font-weight: bold;">spartansem.com</a>
+                    </p>
+                    <p style="margin:0;">
+                        {{Mailing Address}}<br /><br />
+                        <a href="{{Unsubscribe Link}}"
+                            style="color: #A12F25; text-decoration: underline;">Unsubscribe</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+    </div>
+</body>
+
+</html>`
+  },
+
+  { 
+    id: 'Outreach Campaign', 
+    title: 'HTML Email Template Designs For Outreach Campaign', 
+    category: 'email', 
+    description: 'HTML email template designed for outreach campaigns with a sleek dark theme. Fully responsive, visually striking, and optimized for clear call-to-actions that drive engagement.', 
+    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/a2cbe4f5-9423-7bc5-3ff3-cec85bf42e08.png', 
+    tech: ['Mailshake', 'html', 'campaign'],
+    code: `
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Spartan SEM - Dark Creative Authority</title>
+  <!--[if mso]>
+  <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+  <style type="text/css">
+    /* RESET & BASE */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+    table { border-collapse: collapse !important; }
+    
+    /* Brand Font Stack: STRICTLY SANS-SERIF */
+    body { 
+      height: 100% !important; 
+      margin: 0 !important; 
+      padding: 0 !important; 
+      width: 100% !important; 
+      background-color: #0c0606; 
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+      color: #FFF8EF; 
+    }
+
+    /* LAYOUT */
+    .wrapper { width: 100%; table-layout: fixed; background-color: #0c0606; padding: 20px 0; }
+    .main { width: 100%; max-width: 600px; margin: 0 auto; background-color: #140A09; }
+    
+    /* TEXT STYLES */
+    .headline { font-size: 26px; line-height: 1.1; font-weight: bold; color: #FFF8EF; margin: 0 0 12px 0; mso-line-height-rule: exactly; }
+    .body-text { font-size: 15px; line-height: 1.6; color: #FFF8EF; margin: 0 0 24px 0; mso-line-height-rule: exactly; opacity: 0.9; }
+    .eyebrow { font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: #EAB14C; margin-bottom: 12px; display: block; }
+    
+    /* COMPONENTS */
+    .btn { background-color: #A12F25; color: #ffffff !important; text-decoration: none; padding: 18px 36px; border-radius: 2px; font-weight: bold; display: inline-block; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; text-align: center; }
+    .feature-card { background-color: #1a100f; border: 1px solid #2a1a18; padding: 22px; height: 160px; box-sizing: border-box; }
+    .card-title { font-size: 16px; font-weight: bold; color: #EAB14C; margin: 0 0 8px 0; }
+    .card-text { font-size: 13px; line-height: 1.5; color: #FFF8EF; opacity: 0.8; margin: 0; }
+    .accent-bar { height: 4px; width: 40px; background-color: #A12F25; margin-bottom: 15px; }
+    
+    /* TESTIMONIAL */
+    .testimonial-area { background-color: #1a100f; border-top: 4px solid #681211; padding: 50px 40px; text-align: center; }
+    .quote-text { font-size: 16px; line-height: 1.6; color: #FFF8EF; font-weight: bold; margin-bottom: 25px; font-style: italic; opacity: 0.95; }
+    
+    /* FOUNDER SECTION */
+    .founder-bio { background-color: #140A09; padding: 40px 50px; border-top: 1px solid #2a1a18; }
+    .headshot { border: 3px solid #EAB14C; padding: 3px; border-radius: 2px; background-color: #1a100f; }
+
+    .footer { padding: 60px 40px; text-align: center; border-top: 1px solid #2a1a18; font-size: 12px; color: #888888; background-color: #0c0606; }
+    
+    /* RESPONSIVE MEDIA QUERIES */
+    @media screen and (max-width: 600px) {
+      .content-padding { padding: 30px 20px !important; }
+      .headline { font-size: 22px !important; line-height: 1.2 !important; }
+      .main { width: 100% !important; max-width: 100% !important; }
+      .stack { display: block !important; width: 100% !important; box-sizing: border-box !important; }
+      .mobile-center { text-align: center !important; }
+      .mobile-padding-top { padding-top: 30px !important; }
+      .col-stack { display: block !important; width: 100% !important; padding: 0 !important; }
+      .grid-item { width: 100% !important; max-width: 100% !important; margin: 0 0 15px 0 !important; }
+      .img-max { width: 100% !important; max-width: 220px !important; margin: 0 auto !important; height: auto !important; }
+      .feature-card { height: auto !important; }
+      .btn { display: block !important; padding-left: 0 !important; padding-right: 0 !important; width: 100% !important; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0; background-color:#0c0606;">
+  <div class="wrapper">
+    <!--[if mso]>
+    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation">
+    <tr>
+    <td align="center" valign="top" width="600">
+    <![endif]-->
+    <table role="presentation" class="main" align="center" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 600px;">
+      
+      <!-- Logo Header -->
+      <tr>
+        <td style="padding: 45px 0 35px 0; text-align: center; background-color: #140A09;" class="content-padding">
+          <a href="https://spartansem.com/"><img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2025/09/spartan-horizontal-logo-white.png" alt="Spartan SEM" width="180" border="0" style="display: block; margin: 0 auto; max-width: 180px;"></a>
+        </td>
+      </tr>
+
+      <!-- Hero Section -->
+      <tr>
+        <td style="padding: 20px 50px 50px 50px;" class="content-padding">
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <!-- Text Side -->
+              <td width="320" valign="middle" class="stack mobile-center">
+                <span class="eyebrow">Expertise for Consultancies</span>
+                <h1 class="headline">Visibility is not random. It is <span style="color:#EAB14C;">engineered.</span></h1>
+                <p class="body-text">
+                  Strong consultancies get found earlier when their digital presence is aligned to real buyer search behavior.
+                </p>
+                <div style="padding-top: 5px;">
+                  <a href="https://calendly.com/spartansem/complimentary-consultation/" class="btn">Book Strategy Call</a>
+                </div>
+              </td>
+              <!-- Image Side -->
+              <td width="180" valign="middle" style="padding-left: 30px;" class="stack mobile-padding-top mobile-center">
+                <img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2026/01/spartan-logo-hero-bright.webp" alt="Spartan SEM" width="200" border="0" class="img-max" style="width: 100%; max-width: 200px; height: auto; display: block; margin: 0 auto;">
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Grid Content Block -->
+      <tr>
+        <td style="padding: 60px 50px; background-color: #1a100f;" class="content-padding">
+          <div class="accent-bar"></div>
+          <p class="body-text" style="font-weight: bold; font-size: 18px; color: #EAB14C; margin-bottom: 25px;">
+            Spartan SEM helps build that visibility by focusing on the inputs that actually shape discovery.
+          </p>
+          
+          <!-- Feature Grid (6 Cards) -->
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td style="font-size: 0; text-align: center;">
+                <!--[if mso]>
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr><td width="250" valign="top">
+                <![endif]-->
+                <div class="grid-item" style="display:inline-block; max-width:245px; vertical-align:top; width:100%; text-align: left;">
+                  <div class="feature-card" style="margin-bottom:10px; margin-right: 5px;">
+                    <p class="card-title">Buyer intent</p>
+                    <p class="card-text">Start with what your ICP is actually searching for, including evaluation-stage signals.</p>
+                  </div>
+                </div>
+                <!--[if mso]></td><td width="250" valign="top"><![endif]-->
+                <div class="grid-item" style="display:inline-block; max-width:245px; vertical-align:top; width:100%; text-align: left;">
+                  <div class="feature-card" style="margin-bottom:10px; margin-left: 5px;">
+                    <p class="card-title">Content alignment</p>
+                    <p class="card-text">Build content around existing demand so your firm shows up where search points.</p>
+                  </div>
+                </div>
+                <!--[if mso]></td></tr><tr><td width="250" valign="top"><![endif]-->
+                <div class="grid-item" style="display:inline-block; max-width:245px; vertical-align:top; width:100%; text-align: left;">
+                  <div class="feature-card" style="margin-bottom:10px; margin-right: 5px;">
+                    <p class="card-title">Authority signals</p>
+                    <p class="card-text">Strengthen relevance so buyers and search engines take your firm seriously.</p>
+                  </div>
+                </div>
+                <!--[if mso]></td><td width="250" valign="top"><![endif]-->
+                <div class="grid-item" style="display:inline-block; max-width:245px; vertical-align:top; width:100%; text-align: left;">
+                  <div class="feature-card" style="margin-bottom:10px; margin-left: 5px;">
+                    <p class="card-title">Site structure</p>
+                    <p class="card-text">Make the website reinforce relevance and expertise instead of getting in the way.</p>
+                  </div>
+                </div>
+                <!--[if mso]></td></tr><tr><td width="250" valign="top"><![endif]-->
+                <div class="grid-item" style="display:inline-block; max-width:245px; vertical-align:top; width:100%; text-align: left;">
+                  <div class="feature-card" style="margin-bottom:10px; margin-right: 5px;">
+                    <p class="card-title">Strategic paid</p>
+                    <p class="card-text">Use selective paid visibility for immediate presence while momentum builds.</p>
+                  </div>
+                </div>
+                <!--[if mso]></td><td width="250" valign="top"><![endif]-->
+                <div class="grid-item" style="display:inline-block; max-width:245px; vertical-align:top; width:100%; text-align: left;">
+                  <div class="feature-card" style="margin-bottom:10px; margin-left: 5px;">
+                    <p class="card-title">Reporting</p>
+                    <p class="card-text">Turn performance into insight so efforts can be refined around what works.</p>
+                  </div>
+                </div>
+                <!--[if mso]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Why This Matters Section -->
+      <tr>
+        <td style="padding: 40px 50px 0 50px;" class="content-padding">
+          <p class="eyebrow">Why this matters</p>
+          <p class="body-text" style="font-weight: bold; margin-bottom: 15px;">
+            The firms that get found first often get evaluated first.
+          </p>
+          <p class="body-text" style="margin-bottom: 0;">
+            Spartan’s approach is built to improve visibility around real demand, so consultancies are more likely to appear when the right buyers are researching options and deciding who is the best fit.
+          </p>
+        </td>
+      </tr>
+
+      <!-- Learn More Button -->
+      <tr>
+        <td style="padding: 40px 50px; text-align: left;" class="content-padding">
+          <a href="https://spartansem.com/" class="btn">Learn More</a>
+        </td>
+      </tr>
+
+      <!-- Testimonial Section -->
+      <tr>
+        <td class="testimonial-area content-padding">
+          <span class="eyebrow" style="color: #EAB14C; font-size: 10px;">What clients notice</span>
+          <p class="quote-text">
+            “Working with Alec has allowed us to rank high on Google and I would say more than 60% of our business come in from Google searches, which I attribute to his efforts. He has also been very helpful in transforming our intake procedure by helping us have the appropriate tools in place make sure we are spending our marketing dollars wisely. I have recommended him to my close friends to help their business as well.”
+          </p>
+        </td>
+      </tr>
+
+      <!-- Founder Section -->
+      <tr>
+        <td class="founder-bio content-padding">
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td width="100" valign="top" class="stack mobile-center">
+                 <img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2026/01/alec-headshot-723x1024.webp" alt="Alec" width="100" border="0" class="headshot" style="display: block; margin: 0 auto;">
+              </td>
+              <td valign="middle" style="padding-left: 25px;" class="stack mobile-padding-top mobile-center">
+                <p style="margin:0; font-size: 14px; font-weight: bold; color: #FFF8EF;">Alec</p>
+                <p style="margin:0; font-size: 12px; color: #EAB14C; text-transform: uppercase; letter-spacing: 1px;">Founder, Spartan SEM</p>
+                <p style="margin:10px 0 0 0; font-size: 13px; line-height: 1.5; color: #888888;">Helping consultancies turn visibility into a predictable engine for growth.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Footer -->
+      <tr>
+        <td class="footer content-padding">
+          <div align="center" style="margin-bottom: 25px;">
+            <a href="https://spartansem.com/"><img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2025/09/spartan-horizontal-logo-white.png" alt="Spartan SEM" width="140" border="0" style="max-width: 140px;"></a>
+          </div>
+          <p style="margin:0 0 20px 0;">
+            <strong style="color: #FFF8EF; letter-spacing: 1px;">SPARTAN SEM</strong><br />
+            <a href="https://spartansem.com/" style="color: #EAB14C; text-decoration: none;">spartansem.com</a>
+          </p>
+          <p style="margin:0;">
+            {{Mailing Address}}<br /><br />
+            <a href="{{Unsubscribe Link}}" style="color: #A12F25; text-decoration: underline;">Unsubscribe</a>
+          </p>
+        </td>
+      </tr>
+    </table>
+    <!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+  </div>
+</body>
+</html>`
+  },
+
+ 
   { 
     id: 'arnold-logan', 
     title: 'Arnold Logan Official', 
@@ -1069,6 +1832,7 @@ const projectsData = [
     url: 'https://arnoldlogan.com/'
   }
 ];
+
 
 const testimonialsData = [
   { id: 1, name: "pixonative", location: "Belgium", text: "good work as always. Fast and reliable delivery with great attention to detail.", stars: 5, platform: "Fiverr", category: "Email Design" },
