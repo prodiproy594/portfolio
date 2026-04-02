@@ -1,21 +1,21 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { 
-  Github, 
-  Linkedin, 
-  Mail, 
-  ExternalLink, 
-  Code, 
-  Layout, 
-  Server, 
-  Smartphone, 
-  Terminal, 
+import {
+  Github,
+  Linkedin,
+  Mail,
+  ExternalLink,
+  Code,
+  Layout,
+  Server,
+  Smartphone,
+  Terminal,
   Award,
   ChevronRight,
   ChevronLeft,
   Menu,
   X,
   User,
-  Cpu, 
+  Cpu,
   Palette,
   Sparkles,
   Send,
@@ -67,7 +67,7 @@ const fiverrLink = "https://www.fiverr.com/prodiproy594/";
 const fiverrLogo = "https://images.seeklogo.com/logo-png/37/1/fiverr-logo-png_seeklogo-376328.png";
 const upworkLogo = "https://cdn.freebiesupply.com/logos/large/2x/upwork-logo-png-transparent.png";
 
-const formAction = "https://formspree.io/f/mojkoygl"; 
+const formAction = "https://formspree.io/f/mojkoygl";
 
 const skillsData = [
   { name: 'Email Ecosystem', icon: Mail, items: ['Mailchimp Specialist', 'Mailjet Expert', 'HubSpot CRM', 'MailerLite Designer', 'Klaviyo Flows'] },
@@ -77,12 +77,12 @@ const skillsData = [
 ];
 
 const projectsData = [
-  { 
-    id: 'yoga-retreat', 
-    title: 'Yoga Marrakech Retreat', 
-    category: 'email', 
-    description: 'Premium Mailchimp campaign for Yoga w Manasi with mosaic gallery and urgency banners.', 
-    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/31aead2b-735d-14f7-bb5e-74012e060ae2.png', 
+  {
+    id: 'yoga-retreat',
+    title: 'Yoga Marrakech Retreat',
+    category: 'email',
+    description: 'Premium Mailchimp campaign for Yoga w Manasi with mosaic gallery and urgency banners.',
+    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/31aead2b-735d-14f7-bb5e-74012e060ae2.png',
     tech: ['Mailchimp', 'Campaign', 'Design'],
     code: `
 <!DOCTYPE html>
@@ -375,12 +375,12 @@ const projectsData = [
 </body>
 </html>`
   },
-  { 
-    id: 'hubspot-automation', 
-    title: 'HubSpot Investor Journey', 
-    category: 'automation', 
-    description: 'Complex lead nurturing and deal pipeline automation setup for Syndi.fi investors.', 
-    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/6afedd6c-ee47-a168-64a0-0c53603ea245.png', 
+  {
+    id: 'hubspot-automation',
+    title: 'HubSpot Investor Journey',
+    category: 'automation',
+    description: 'Complex lead nurturing and deal pipeline automation setup for Syndi.fi investors.',
+    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/6afedd6c-ee47-a168-64a0-0c53603ea245.png',
     tech: ['HubSpot', 'Automation', 'CRM'],
     code: `
 <!doctype html>
@@ -737,12 +737,12 @@ const projectsData = [
 
 </html>`
   },
-  { 
-    id: 'lotessa-welcome', 
-    title: 'Lotessa Welcome Series', 
-    category: 'email', 
-    description: 'Multi-stage onboarding HTML template for Lotessa on Mailjet, optimized for user retention.', 
-    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/284a9e8e-dece-2c71-8244-69b98bda7c8a.png', 
+  {
+    id: 'lotessa-welcome',
+    title: 'Lotessa Welcome Series',
+    category: 'email',
+    description: 'Multi-stage onboarding HTML template for Lotessa on Mailjet, optimized for user retention.',
+    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/55b1a4e3-a9cc-1f4a-1af6-155bf89ea23c.jpeg',
     tech: ['Mailjet', 'MJML', 'Onboarding'],
     code: `<!DOCTYPE html>
 <html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -1060,12 +1060,12 @@ const projectsData = [
 </html>`
   },
 
-  { 
-    id: 'Outreach Campaign', 
-    title: 'HTML Email Template Designs For Outreach Campaign', 
-    category: 'email', 
-    description: 'Custom-designed HTML email templates optimized for outreach campaigns, ensuring responsive layouts, engaging visuals, and clear call-to-actions that drive results.', 
-    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/284a9e8e-dece-2c71-8244-69b98bda7c8a.png', 
+  {
+    id: 'Outreach Campaign 1',
+    title: 'Editorial Outreach Design',
+    category: 'email',
+    description: 'Custom-designed HTML email templates optimized for outreach campaigns, ensuring responsive layouts.',
+    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/284a9e8e-dece-2c71-8244-69b98bda7c8a.png',
     tech: ['Mailshake', 'html', 'campaign'],
     code: `
 <!DOCTYPE html
@@ -1558,13 +1558,13 @@ const projectsData = [
 </html>`
   },
 
-  { 
-    id: 'Outreach Campaign', 
-    title: 'HTML Email Template Designs For Outreach Campaign', 
-    category: 'email', 
-    description: 'HTML email template designed for outreach campaigns with a sleek dark theme. Fully responsive, visually striking, and optimized for clear call-to-actions that drive engagement.', 
-    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/a2cbe4f5-9423-7bc5-3ff3-cec85bf42e08.png', 
-    tech: ['Mailshake', 'html', 'campaign'],
+  {
+    id: 'Outreach Campaign dark',
+    title: 'Dark Mode Outreach',
+    category: 'email',
+    description: 'HTML email template designed for outreach campaigns with a sleek dark theme. Visual striking design.',
+    image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/a2cbe4f5-9423-7bc5-3ff3-cec85bf42e08.png',
+    tech: ['Mailshake', 'html', 'dark ui'],
     code: `
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -1821,13 +1821,13 @@ const projectsData = [
 </html>`
   },
 
- 
-  { 
-    id: 'arnold-logan', 
-    title: 'Arnold Logan Official', 
-    category: 'web', 
-    description: 'Elite personal branding website with premium UI and Authorship focus.', 
-    image: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&q=80&w=1200', 
+
+  {
+    id: 'arnold-logan',
+    title: 'Arnold Logan Official',
+    category: 'web',
+    description: 'Elite personal branding website with premium UI and Authorship focus.',
+    image: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&q=80&w=1200',
     tech: ['Web Design', 'UI/UX'],
     url: 'https://arnoldlogan.com/'
   }
@@ -1871,11 +1871,11 @@ const SafeImage = ({ src, alt, className }) => {
           <span className="text-[8px] uppercase font-black tracking-widest text-center">Image Load Failed</span>
         </div>
       ) : (
-        <img 
-          src={src} 
-          alt={alt} 
+        <img
+          src={src}
+          alt={alt}
           onError={() => setError(true)}
-          className="w-full h-full object-cover transition-all duration-700" 
+          className="w-full h-full object-cover transition-all duration-700"
         />
       )}
     </div>
@@ -1883,7 +1883,7 @@ const SafeImage = ({ src, alt, className }) => {
 };
 
 const CaseStudyView = ({ project, onBack }) => {
-  const [viewMode, setViewMode] = useState('preview'); 
+  const [viewMode, setViewMode] = useState('preview');
   const [localCode, setLocalCode] = useState(project.code || "");
 
   useEffect(() => {
@@ -1934,10 +1934,10 @@ const CaseStudyView = ({ project, onBack }) => {
 
             <div className="bg-[#111] border border-white/10 rounded-2xl md:rounded-[2.5rem] overflow-hidden shadow-2xl min-h-[400px] md:min-h-[600px] relative">
               {viewMode === 'preview' ? (
-                <iframe 
-                  title="Live Preview" 
-                  srcDoc={localCode || "<html><body style='color:white; font-family:sans-serif; padding:40px; text-align:center;'>Preview unavailable.</body></html>"} 
-                  className="w-full h-[400px] md:h-[600px] border-none bg-white" 
+                <iframe
+                  title="Live Preview"
+                  srcDoc={localCode || "<html><body style='color:white; font-family:sans-serif; padding:40px; text-align:center;'>Preview unavailable.</body></html>"}
+                  className="w-full h-[400px] md:h-[600px] border-none bg-white"
                 />
               ) : (
                 <div className="relative h-[400px] md:h-[600px] flex flex-col">
@@ -2016,8 +2016,8 @@ const TestimonialSlider = () => {
 
       <div className="flex justify-center gap-2 md:gap-3 mt-6 md:mt-10">
         {testimonialsData.map((_, idx) => (
-          <button 
-            key={idx} 
+          <button
+            key={idx}
             onClick={() => setCurrentIndex(idx)}
             className={`h-1 md:h-1.5 transition-all rounded-full ${currentIndex === idx ? 'w-6 md:w-8 bg-amber-500 shadow-[0_0_10px_rgba(245,158,11,0.5)]' : 'w-1.5 md:w-2 bg-white/10 hover:bg-white/30'}`}
           />
@@ -2030,12 +2030,12 @@ const TestimonialSlider = () => {
 // --- Main App Component ---
 
 const App = () => {
-  const [currentPage, setCurrentPage] = useState('home'); 
+  const [currentPage, setCurrentPage] = useState('home');
   const [selectedProject, setSelectedProject] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [activeTab, setActiveTab] = useState('all');
-  const [formStatus, setFormStatus] = useState(null); 
+  const [formStatus, setFormStatus] = useState(null);
   const [contactMessage, setContactMessage] = useState("");
   const [isPolishing, setIsPolishing] = useState(false);
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -2083,7 +2083,7 @@ const App = () => {
     e.preventDefault();
     setIsMenuOpen(false);
     const id = targetHref.replace('#', '');
-    
+
     if (currentPage !== 'home') {
       setCurrentPage('home');
       localStorage.setItem('last_page', 'home');
@@ -2219,12 +2219,12 @@ const App = () => {
           <button onClick={(e) => handleNavClick(e, '#hero')} className="flex items-center text-left">
             <BrandLogo />
           </button>
-          
+
           <div className="hidden md:flex items-center gap-6 lg:gap-8">
             {navItems.map((item) => (
-              <a 
-                key={item.name} 
-                href={item.href} 
+              <a
+                key={item.name}
+                href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
                 className="nav-item text-[9px] lg:text-[10px] font-black text-gray-400 hover:text-amber-500 transition-colors uppercase tracking-[0.2em]"
               >
@@ -2236,16 +2236,16 @@ const App = () => {
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
-        
+
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden fixed inset-0 bg-[#0a0a0a] z-[60] flex flex-col items-center justify-center gap-8 animate-in fade-in zoom-in duration-300">
             <button className="absolute top-6 right-6 text-white" onClick={() => setIsMenuOpen(false)}><X size={32} /></button>
             {navItems.map((item) => (
-              <a 
-                key={item.name} 
-                href={item.href} 
-                onClick={(e) => handleNavClick(e, item.href)} 
+              <a
+                key={item.name}
+                href={item.href}
+                onClick={(e) => handleNavClick(e, item.href)}
                 className="text-xl font-black text-white hover:text-amber-500 transition-colors uppercase tracking-widest font-poppins"
               >
                 {item.name}
@@ -2257,10 +2257,10 @@ const App = () => {
 
       {/* Floating Buttons */}
       <div className="fixed bottom-6 right-4 md:right-6 z-[60] flex flex-col gap-3">
-        <a 
-          href={whatsappLink} 
-          target="_blank" 
-          rel="noopener noreferrer" 
+        <a
+          href={whatsappLink}
+          target="_blank"
+          rel="noopener noreferrer"
           className="w-12 h-12 md:w-14 md:h-14 bg-[#25D366] text-white rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.4)] flex items-center justify-center hover:scale-110 active:scale-95 transition-all border-2 border-black/10 group"
         >
           <MessageCircle size={24} md:size={28} className="group-hover:rotate-12 transition-transform" />
@@ -2299,13 +2299,13 @@ const App = () => {
           </div>
           <div className="p-3 md:p-4 border-t border-white/5 bg-black/40">
             <div className="relative font-mono flex items-center">
-              <input 
-                type="text" 
-                value={chatInput} 
-                onChange={(e) => setChatInput(e.target.value)} 
-                onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()} 
-                placeholder="Ask me anything..." 
-                className="w-full bg-white/5 border border-white/10 rounded-lg md:rounded-xl px-4 py-2 md:py-3 text-[12px] md:text-sm focus:outline-none focus:border-amber-500/50 pr-10 md:pr-12 font-medium text-white" 
+              <input
+                type="text"
+                value={chatInput}
+                onChange={(e) => setChatInput(e.target.value)}
+                onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
+                placeholder="Ask me anything..."
+                className="w-full bg-white/5 border border-white/10 rounded-lg md:rounded-xl px-4 py-2 md:py-3 text-[12px] md:text-sm focus:outline-none focus:border-amber-500/50 pr-10 md:pr-12 font-medium text-white"
               />
               <button onClick={handleSendMessage} disabled={!chatInput.trim() || isTyping} className="absolute right-2 md:right-3 p-1.5 md:p-2 text-amber-500 disabled:opacity-30"><Send size={16} md:size={18} /></button>
             </div>
@@ -2367,44 +2367,44 @@ const App = () => {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
                 <div className="p-6 md:p-10 bg-[#111] border border-white/5 rounded-2xl md:rounded-[3rem] group hover:border-amber-500/30 transition-all shadow-2xl text-left">
-                   <div className="flex justify-between items-start mb-6 md:mb-8 text-left">
-                      <div className="p-3 md:p-4 bg-white/5 rounded-xl md:rounded-2xl group-hover:bg-[#14a800]/10 transition-colors">
-                        <img src={upworkLogo} alt="Upwork" className="h-6 md:h-8 w-auto max-w-[100px] md:max-w-[120px] object-contain" />
-                      </div>
-                      <div className="bg-[#14a800] text-white px-3 md:px-4 py-1 md:py-1.5 rounded-full text-[8px] md:text-[10px] font-black uppercase tracking-widest font-poppins flex items-center gap-1.5"><Award size={10} md:size={12} /> Top Rated Candidate</div>
-                   </div>
-                   <h3 className="text-xl md:text-2xl font-black uppercase italic mb-6 md:mb-8 font-poppins leading-none">Upwork Expert</h3>
-                   <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8 font-mono">
-                      <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                        <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">182+</p>
-                        <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Total Hours</p>
-                      </div>
-                      <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                        <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">100%</p>
-                        <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Job Success</p>
-                      </div>
-                   </div>
-                   <a href={upworkLink} target="_blank" className="block w-full py-4 md:py-5 bg-[#14a800] text-white rounded-xl md:rounded-2xl text-[10px] md:text-xs font-black uppercase text-center font-poppins hover:brightness-110 shadow-lg transition-all">View Profile</a>
+                  <div className="flex justify-between items-start mb-6 md:mb-8 text-left">
+                    <div className="p-3 md:p-4 bg-white/5 rounded-xl md:rounded-2xl group-hover:bg-[#14a800]/10 transition-colors">
+                      <img src={upworkLogo} alt="Upwork" className="h-6 md:h-8 w-auto max-w-[100px] md:max-w-[120px] object-contain" />
+                    </div>
+                    <div className="bg-[#14a800] text-white px-3 md:px-4 py-1 md:py-1.5 rounded-full text-[8px] md:text-[10px] font-black uppercase tracking-widest font-poppins flex items-center gap-1.5"><Award size={10} md:size={12} /> Top Rated Candidate</div>
+                  </div>
+                  <h3 className="text-xl md:text-2xl font-black uppercase italic mb-6 md:mb-8 font-poppins leading-none">Upwork Expert</h3>
+                  <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8 font-mono">
+                    <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
+                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">182+</p>
+                      <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Total Hours</p>
+                    </div>
+                    <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
+                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">100%</p>
+                      <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Job Success</p>
+                    </div>
+                  </div>
+                  <a href={upworkLink} target="_blank" className="block w-full py-4 md:py-5 bg-[#14a800] text-white rounded-xl md:rounded-2xl text-[10px] md:text-xs font-black uppercase text-center font-poppins hover:brightness-110 shadow-lg transition-all">View Profile</a>
                 </div>
                 <div className="p-6 md:p-10 bg-[#111] border border-white/5 rounded-2xl md:rounded-[3rem] group hover:border-amber-500/30 transition-all shadow-2xl text-left">
-                   <div className="flex justify-between items-start mb-6 md:mb-8 text-left">
-                      <div className="p-3 md:p-4 bg-white/5 rounded-xl md:rounded-2xl group-hover:bg-[#1dbf73]/10 transition-colors">
-                        <img src={fiverrLogo} alt="Fiverr" className="h-6 md:h-8 w-auto max-w-[100px] md:max-w-[120px] object-contain" />
-                      </div>
-                      <div className="bg-white/5 text-amber-500 border border-amber-500/20 px-3 md:px-4 py-1 md:py-1.5 rounded-full text-[8px] md:text-[10px] font-black uppercase tracking-widest font-poppins flex items-center gap-1.5"><Trophy size={10} md:size={12} /> Level 2 Seller</div>
-                   </div>
-                   <h3 className="text-xl md:text-2xl font-black uppercase italic mb-6 md:mb-8 font-poppins leading-none">Fiverr Specialist</h3>
-                   <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8 font-mono">
-                      <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                        <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">451+</p>
-                        <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Orders Done</p>
-                      </div>
-                      <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                        <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">257+</p>
-                        <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Reviews</p>
-                      </div>
-                   </div>
-                   <a href={fiverrLink} target="_blank" className="block w-full py-4 md:py-5 bg-[#1dbf73] text-white rounded-xl md:rounded-2xl text-[10px] md:text-xs font-black uppercase text-center font-poppins hover:brightness-110 shadow-lg transition-all">View Profile</a>
+                  <div className="flex justify-between items-start mb-6 md:mb-8 text-left">
+                    <div className="p-3 md:p-4 bg-white/5 rounded-xl md:rounded-2xl group-hover:bg-[#1dbf73]/10 transition-colors">
+                      <img src={fiverrLogo} alt="Fiverr" className="h-6 md:h-8 w-auto max-w-[100px] md:max-w-[120px] object-contain" />
+                    </div>
+                    <div className="bg-white/5 text-amber-500 border border-amber-500/20 px-3 md:px-4 py-1 md:py-1.5 rounded-full text-[8px] md:text-[10px] font-black uppercase tracking-widest font-poppins flex items-center gap-1.5"><Trophy size={10} md:size={12} /> Level 2 Seller</div>
+                  </div>
+                  <h3 className="text-xl md:text-2xl font-black uppercase italic mb-6 md:mb-8 font-poppins leading-none">Fiverr Specialist</h3>
+                  <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8 font-mono">
+                    <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
+                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">451+</p>
+                      <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Orders Done</p>
+                    </div>
+                    <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
+                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">257+</p>
+                      <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Reviews</p>
+                    </div>
+                  </div>
+                  <a href={fiverrLink} target="_blank" className="block w-full py-4 md:py-5 bg-[#1dbf73] text-white rounded-xl md:rounded-2xl text-[10px] md:text-xs font-black uppercase text-center font-poppins hover:brightness-110 shadow-lg transition-all">View Profile</a>
                 </div>
               </div>
             </div>
@@ -2413,23 +2413,23 @@ const App = () => {
           {/* Skills Section */}
           <section id="skills" className="py-16 md:py-24 border-t border-white/5 text-left">
             <div className="max-w-7xl mx-auto px-4 md:px-6">
-               <h2 className="text-3xl md:text-5xl font-bold tracking-tighter italic uppercase underline decoration-amber-500/10 font-black font-poppins mb-10 md:mb-16 text-center text-white">Technical Mastery.</h2>
-               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-                  {skillsData.map((skill, idx) => {
-                    const Icon = skill.icon;
-                    return (
-                      <div key={idx} className="p-6 md:p-8 bg-[#111] border border-white/5 rounded-2xl md:rounded-[2rem] hover:border-amber-500/50 transition-all text-left">
-                        <div className="w-10 h-10 md:w-12 md:h-12 bg-amber-500/10 text-amber-500 rounded-lg md:rounded-xl flex items-center justify-center mb-4 md:mb-6">
-                          <Icon size={20} md:size={24} />
-                        </div>
-                        <h3 className="text-lg md:text-xl font-black italic mb-4 md:mb-6 font-poppins text-left text-white">{skill.name}</h3>
-                        <ul className="space-y-2">
-                          {skill.items.map(item => <li key={item} className="text-[9px] md:text-[10px] text-gray-400 font-bold uppercase tracking-widest text-left">• {item}</li>)}
-                        </ul>
+              <h2 className="text-3xl md:text-5xl font-bold tracking-tighter italic uppercase underline decoration-amber-500/10 font-black font-poppins mb-10 md:mb-16 text-center text-white">Technical Mastery.</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+                {skillsData.map((skill, idx) => {
+                  const Icon = skill.icon;
+                  return (
+                    <div key={idx} className="p-6 md:p-8 bg-[#111] border border-white/5 rounded-2xl md:rounded-[2rem] hover:border-amber-500/50 transition-all text-left">
+                      <div className="w-10 h-10 md:w-12 md:h-12 bg-amber-500/10 text-amber-500 rounded-lg md:rounded-xl flex items-center justify-center mb-4 md:mb-6">
+                        <Icon size={20} md:size={24} />
                       </div>
-                    );
-                  })}
-               </div>
+                      <h3 className="text-lg md:text-xl font-black italic mb-4 md:mb-6 font-poppins text-left text-white">{skill.name}</h3>
+                      <ul className="space-y-2">
+                        {skill.items.map(item => <li key={item} className="text-[9px] md:text-[10px] text-gray-400 font-bold uppercase tracking-widest text-left">• {item}</li>)}
+                      </ul>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </section>
 
@@ -2483,24 +2483,24 @@ const App = () => {
 
           {/* Contact Section */}
           <section id="contact" className="py-16 md:py-24 border-t border-white/5 text-left">
-             <div className="max-w-4xl mx-auto px-4 md:px-6 text-center">
-                <h2 className="text-4xl md:text-5xl lg:text-6xl font-black italic uppercase underline decoration-amber-500/10 font-poppins mb-10 md:mb-12 text-center text-white">Scale Your Brand.</h2>
-                <form onSubmit={handleFormSubmit} className="space-y-4 md:space-y-6 text-left max-w-2xl mx-auto text-left">
-                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 text-left">
-                      <input type="text" name="name" required placeholder="YOUR NAME" className="w-full px-5 md:px-6 py-3 md:py-4 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl focus:border-amber-500 focus:outline-none transition-all placeholder:text-gray-700 font-bold text-[10px] md:text-xs text-white text-left" />
-                      <input type="email" name="email" required placeholder="EMAIL ADDRESS" className="w-full px-5 md:px-6 py-3 md:py-4 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl focus:border-amber-500 focus:outline-none transition-all placeholder:text-gray-700 font-bold text-[10px] md:text-xs text-white text-left" />
-                   </div>
-                   <div className="relative text-left">
-                      <textarea name="message" required value={contactMessage} onChange={(e) => setContactMessage(e.target.value)} placeholder="PROJECT REQUIREMENTS..." rows="5" className="w-full px-5 md:px-6 py-3 md:py-4 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl focus:border-amber-500 focus:outline-none transition-all placeholder:text-gray-700 font-bold text-[10px] md:text-xs font-inter text-white text-left" />
-                      <button type="button" onClick={polishMessage} disabled={!contactMessage.trim() || isPolishing} className="absolute bottom-3 md:bottom-4 right-3 md:right-4 px-4 md:px-5 py-2 md:py-2.5 bg-amber-500/10 hover:bg-amber-500/20 text-amber-500 border border-amber-500/20 rounded-lg md:rounded-xl text-[8px] md:text-[10px] font-black uppercase tracking-widest flex items-center gap-2 transition-all disabled:opacity-50 italic font-poppins">AI Polish ✨</button>
-                   </div>
-                   {formStatus === 'success' && <div className="p-4 bg-green-500/10 border border-green-500/20 text-green-500 rounded-xl text-xs font-bold uppercase text-center mb-4">Message sent successfully!</div>}
-                   {formStatus === 'error' && <div className="p-4 bg-red-500/10 border border-red-500/20 text-red-500 rounded-xl text-xs font-bold uppercase text-center mb-4">Something went wrong. Please try again.</div>}
-                   <button type="submit" disabled={formStatus === 'loading'} className="w-full py-4 md:py-6 bg-amber-500 text-black font-black rounded-xl md:rounded-2xl hover:bg-amber-400 transition-all flex items-center justify-center gap-2 group uppercase tracking-[0.2em] text-[10px] md:text-xs font-poppins text-center">
-                     {formStatus === 'loading' ? 'Submitting...' : 'Submit'} <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                   </button>
-                </form>
-             </div>
+            <div className="max-w-4xl mx-auto px-4 md:px-6 text-center">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-black italic uppercase underline decoration-amber-500/10 font-poppins mb-10 md:mb-12 text-center text-white">Scale Your Brand.</h2>
+              <form onSubmit={handleFormSubmit} className="space-y-4 md:space-y-6 text-left max-w-2xl mx-auto text-left">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 text-left">
+                  <input type="text" name="name" required placeholder="YOUR NAME" className="w-full px-5 md:px-6 py-3 md:py-4 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl focus:border-amber-500 focus:outline-none transition-all placeholder:text-gray-700 font-bold text-[10px] md:text-xs text-white text-left" />
+                  <input type="email" name="email" required placeholder="EMAIL ADDRESS" className="w-full px-5 md:px-6 py-3 md:py-4 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl focus:border-amber-500 focus:outline-none transition-all placeholder:text-gray-700 font-bold text-[10px] md:text-xs text-white text-left" />
+                </div>
+                <div className="relative text-left">
+                  <textarea name="message" required value={contactMessage} onChange={(e) => setContactMessage(e.target.value)} placeholder="PROJECT REQUIREMENTS..." rows="5" className="w-full px-5 md:px-6 py-3 md:py-4 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl focus:border-amber-500 focus:outline-none transition-all placeholder:text-gray-700 font-bold text-[10px] md:text-xs font-inter text-white text-left" />
+                  <button type="button" onClick={polishMessage} disabled={!contactMessage.trim() || isPolishing} className="absolute bottom-3 md:bottom-4 right-3 md:right-4 px-4 md:px-5 py-2 md:py-2.5 bg-amber-500/10 hover:bg-amber-500/20 text-amber-500 border border-amber-500/20 rounded-lg md:rounded-xl text-[8px] md:text-[10px] font-black uppercase tracking-widest flex items-center gap-2 transition-all disabled:opacity-50 italic font-poppins">AI Polish ✨</button>
+                </div>
+                {formStatus === 'success' && <div className="p-4 bg-green-500/10 border border-green-500/20 text-green-500 rounded-xl text-xs font-bold uppercase text-center mb-4">Message sent successfully!</div>}
+                {formStatus === 'error' && <div className="p-4 bg-red-500/10 border border-red-500/20 text-red-500 rounded-xl text-xs font-bold uppercase text-center mb-4">Something went wrong. Please try again.</div>}
+                <button type="submit" disabled={formStatus === 'loading'} className="w-full py-4 md:py-6 bg-amber-500 text-black font-black rounded-xl md:rounded-2xl hover:bg-amber-400 transition-all flex items-center justify-center gap-2 group uppercase tracking-[0.2em] text-[10px] md:text-xs font-poppins text-center">
+                  {formStatus === 'loading' ? 'Submitting...' : 'Submit'} <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                </button>
+              </form>
+            </div>
           </section>
         </div>
       ) : (
