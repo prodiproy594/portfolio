@@ -1840,7 +1840,11 @@ const testimonialsData = [
   { id: 3, name: "jonathanan", location: "Israel", text: "Great seller will purchase your services again. High quality work and professional attitude.", stars: 5, platform: "Fiverr", category: "Email Design" },
   { id: 4, name: "belfast6789", location: "Canada", text: "He was polite, patient and delivered on time.....made the interaction smooth ...highly recommend ...second time I have worked with him.", stars: 5, platform: "Fiverr", category: "Email Design" },
   { id: 5, name: "Paystubs.net", location: "United States", text: "Prodip consistently delivered email templates on time and was reliable throughout our engagement.", stars: 5, platform: "Upwork", category: "Mailchimp Specialist" },
-  { id: 6, name: "vmaior", location: "Romania", text: "Great job. We managed to deliver on time and on budget. Prodip was open to feedback.", stars: 5, platform: "Fiverr", category: "Email Design" }
+
+  { id: 6, name: "vmaior", location: "Romania", text: "Great job. We managed to deliver on time and on budget. Prodip was open to feedback.", stars: 5, platform: "Fiverr", category: "Email Design" },
+
+  { id: 7, name: "Alec Renner", location: "United StateS", text: "Prodip provided clean custom email marketing design templates that met expectations and were delivered promptly.", stars: 5, platform: "Upwork", category: "Email Marketing Design" }
+
 ];
 
 // --- Sub-Components ---
