@@ -1830,6 +1830,15 @@ const projectsData = [
     image: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&q=80&w=1200',
     tech: ['Web Design', 'UI/UX'],
     url: 'https://arnoldlogan.com/'
+  },
+  {
+    id: 'MotionView',
+    title: 'Motion View llc',
+    category: 'web',
+    description: 'Elite personal branding website with premium UI and Authorship focus.',
+    image: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&q=80&w=1200',
+    tech: ['Web Design', 'UI/UX'],
+    url: 'https://www.motionviewllc.com/'
   }
 ];
 
@@ -2375,12 +2384,12 @@ const App = () => {
                     <div className="p-3 md:p-4 bg-white/5 rounded-xl md:rounded-2xl group-hover:bg-[#14a800]/10 transition-colors">
                       <img src={upworkLogo} alt="Upwork" className="h-6 md:h-8 w-auto max-w-[100px] md:max-w-[120px] object-contain" />
                     </div>
-                    <div className="bg-[#14a800] text-white px-3 md:px-4 py-1 md:py-1.5 rounded-full text-[8px] md:text-[10px] font-black uppercase tracking-widest font-poppins flex items-center gap-1.5"><Award size={10} md:size={12} /> Top Rated Candidate</div>
+                    <div className="bg-[#14a800] text-white px-3 md:px-4 py-1 md:py-1.5 rounded-full text-[8px] md:text-[10px] font-black uppercase tracking-widest font-poppins flex items-center gap-1.5"><Award size={10} md:size={12} /> Top Rated</div>
                   </div>
-                  <h3 className="text-xl md:text-2xl font-black uppercase italic mb-6 md:mb-8 font-poppins leading-none">Upwork Expert</h3>
+                  <h3 className="text-xl md:text-2xl font-black uppercase italic mb-6 md:mb-8 font-poppins leading-none">Upwork Top Rated Freelancer</h3>
                   <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8 font-mono">
                     <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">240+</p>
+                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">276+</p>
                       <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Total Hours</p>
                     </div>
                     <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
@@ -2400,11 +2409,11 @@ const App = () => {
                   <h3 className="text-xl md:text-2xl font-black uppercase italic mb-6 md:mb-8 font-poppins leading-none">Fiverr Specialist</h3>
                   <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8 font-mono">
                     <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">456+</p>
+                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">461+</p>
                       <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Orders Done</p>
                     </div>
                     <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">257+</p>
+                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">259+</p>
                       <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Reviews</p>
                     </div>
                   </div>
