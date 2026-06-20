@@ -50,7 +50,8 @@ import {
   MapPin,
   Image as ImageIcon,
   Trophy,
-  MessageCircle
+  MessageCircle,
+  Sparkle
 } from 'lucide-react';
 
 // --- Global Data & Constants ---
@@ -498,14 +499,6 @@ const projectsData = [
       }
     }
   </style>
-  <!--[if mso]>
-    <xml>
-    <o:OfficeDocumentSettings>
-      <o:AllowPNG/>
-      <o:PixelsPerInch>96</o:PixelsPerInch>
-    </o:OfficeDocumentSettings>
-    </xml>
-    <![endif]-->
 </head>
 
 <body style="word-spacing:normal;background-color:#082059;margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
@@ -516,11 +509,6 @@ const projectsData = [
 
     <!-- 1. HEADER CARD -->
     <div class="container-table" style="margin:0px auto;max-width:600px;background-color:#ffffff;border-radius:18px;overflow:hidden;">
-      <!--[if gte mso 9]>
-      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:420px;">
-        <v:fill type="tile" src="https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/Group%20200.png" color="#ffffff" />
-        <v:textbox inset="0,0,0,0">
-      <![endif]-->
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-image: url('https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/Group%20200.png'); background-size: cover; background-position: center bottom; background-repeat: no-repeat; background-color: #ffffff; border-radius: 18px;">
         <tbody>
           <tr>
@@ -545,10 +533,6 @@ const projectsData = [
           </tr>
         </tbody>
       </table>
-      <!--[if gte mso 9]>
-        </v:textbox>
-      </v:rect>
-      <![endif]-->
     </div>
 
     <!-- 2 & 3. MAIN BODY SECTION -->
@@ -574,8 +558,8 @@ const projectsData = [
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-top:10px;padding-bottom:10px;word-break:break-word;" class="mobile-padding">
                         <div style="font-family: 'Montserrat', Arial, sans-serif;font-size:30px;line-height:1.2;text-align:left;color:#55575d; background-color: #F3F4F7; padding: 15px 25px; border-radius: 18px;">
                           <p style="line-height: normal; margin: 10px 0; text-align: center; color:#082059; font-size: 35px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 900; mso-line-height-rule: exactly;" class="text-large-mobile">Nu e panică.</p> 
-                          <p style="line-height: normal; margin: 10px 0; text-align: center; color:#082059; font-size: 35px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 600; mso-line-height-rule: exactly;" class="text-large-mobile">Dar nici euforie nu mai e.</p> 
-                          <p style="line-height: normal; margin: 10px 0; text-align: center; color:#082059; font-size: 16px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 500; mso-line-height-rule: exactly;" class="body-text-mobile">Între timp, prețurile au rămas sus. Chiriile au crescut… dar nu în același ritm. Asta înseamnă ceva simplu și periculos: randamentele s-au comprimat. <br> <br> Un apartament care părea atractiv la 5-6% brut acum câțiva ani, astăzi ajunge în multe cazuri la 3-4% brut. Iar din acel procent scazi taxe, perioade fără chiriaș, reparații, inflație.</p>
+                          <p style="line-height: normal; margin: 10px 0; text-align: center; color:#082059; font-size: 35px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 600; mso-line-height-rule: exactly;" class="text-large-mobile">But neither euphoria is left.</p> 
+                          <p style="line-height: normal; margin: 10px 0; text-align: center; color:#082059; font-size: 16px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 500; mso-line-height-rule: exactly;" class="body-text-mobile">Meanwhile, prices remained high. Rents rose... but not at the same pace. This means something simple and dangerous: yields compressed. <br> <br> An apartment that looked attractive at 5-6% gross a few years ago, today reaches 3-4% gross in many cases. And from that percentage you subtract taxes, empty periods, repairs, inflation.</p>
                         </div>
                       </td>
                     </tr>
@@ -593,15 +577,15 @@ const projectsData = [
                               </td>
                               <td class="mobile-stack mobile-margin-top" width="54%" style="vertical-align: middle; border-left: 2px solid #F3F4F7; padding-left: 30px;">
                                 <p style="margin: 0 0 20px 0; color: #082059; font-size: 16px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 500; line-height: 1.4; mso-line-height-rule: exactly;" class="body-text-mobile">
-                                  Mai produce suficient cât să o ții fără stres? <br>
-                                  Sau devine o speranță legată de „poate își revine”?
+                                  Does it produce enough to keep it without stress? <br>
+                                  Or does it become a hope tied to "maybe it will recover"?
                                 </p>
                                 <p style="margin: 0 0 20px 0; color: #082059; font-size: 16px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 500; line-height: 1.4; mso-line-height-rule: exactly;" class="body-text-mobile">
-                                  Și dacă tranzacțiile continuă să încetinească, unde îți vei muta capitalul?
+                                  And if transactions continue to slow down, where will you move your capital?
                                 </p>
                                 <p style="margin: 0; color: #082059; font-size: 16px; font-family: 'Montserrat', Arial, sans-serif; font-weight: 500; line-height: 1.4; mso-line-height-rule: exactly;" class="body-text-mobile">
-                                  Majoritatea investitorilor nu au un plan de backup. <br>
-                                  Au doar un plan de creștere.
+                                  Most investors don't have a backup plan. <br>
+                                  They only have a growth plan.
                                 </p>
                               </td>
                             </tr>
@@ -626,7 +610,7 @@ const projectsData = [
             <td align="center" style="padding: 0 40px;" class="mobile-padding">
               <div style="font-family: 'Montserrat', Arial, Helvetica, sans-serif;text-align:center;">
                 <h2 style="margin: 0; color:#ffffff; font-size: 34px; font-weight: 900;" class="h2-mobile">Vrei să discutăm aplicat?</h2> 
-                <p style="margin: 15px 0 30px 0; color:#ffffff; font-size: 16px; font-weight: 500; line-height: 1.4;">Află despre cum ar trebui să arate un portofoliu pregătit pentru o corecție, poți programa o conversație cu unul dintre consultanții</p>
+                <p style="margin: 15px 0 30px 0; color:#ffffff; font-size: 16px; font-weight: 500; line-height: 1.4;">Află sobre cum ar trebui să arate un portofoliu pregătit pentru o corecție, poți programa o conversație cu unul dintre consultanții</p>
               </div>
               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto;">
                 <tr>
@@ -643,11 +627,6 @@ const projectsData = [
 
     <!-- 5. FOOTER CARD SECTION -->
     <div class="container-table" style="margin:0 auto;max-width:600px; border-radius: 18px; overflow: hidden; background-color: #F3F4F7;">
-      <!--[if gte mso 9]>
-      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:650px;">
-        <v:fill type="tile" src="https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/gradient%20mask%20(3).png" color="#F3F4F7" />
-        <v:textbox inset="0,0,0,0">
-      <![endif]-->
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; background-image: url('https://49224040.fs1.hubspotusercontent-eu1.net/hubfs/49224040/Email%20Components/gradient%20mask%20(3).png'); background-size: cover; background-position: center bottom; background-repeat: no-repeat; background-color: #F3F4F7; border-radius: 18px;">
         <tbody>
           <tr>
@@ -709,10 +688,6 @@ const projectsData = [
           </tr>
         </tbody>
       </table>
-      <!--[if gte mso 9]>
-        </v:textbox>
-      </v:rect>
-      <![endif]-->
     </div>
 
     <!-- 6. LEGAL FOOTER -->
@@ -801,13 +776,11 @@ const projectsData = [
   <div style="background-color:#F4F4F4;" role="main">
     
     <!-- Logo Header -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div style="margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
             <td style="direction:ltr;font-size:0px;padding:30px 0px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:top;width:600px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -829,22 +802,18 @@ const projectsData = [
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
 
     <!-- Hero Section -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600" bgcolor="#2fb4a5" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div style="background:#2fb4a5;background-color:#2fb4a5;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#2fb4a5;background-color:#2fb4a5;width:100%;">
         <tbody>
           <tr>
             <td style="direction:rtl;font-size:0px;padding:5px 0px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:middle;width:300px;" ><![endif]-->
               <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                   <tbody>
@@ -864,7 +833,6 @@ const projectsData = [
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td><td style="vertical-align:middle;width:300px;" ><![endif]-->
               <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                   <tbody>
@@ -878,22 +846,18 @@ const projectsData = [
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
 
     <!-- Main Content -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
             <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:top;width:600px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -910,22 +874,18 @@ const projectsData = [
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
 
     <!-- Checklist & CTA -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600" bgcolor="#f6f8f7" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div style="background:#f6f8f7;background-color:#f6f8f7;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f6f8f7;background-color:#f6f8f7;width:100%;">
         <tbody>
           <tr>
             <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:top;width:600px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -957,22 +917,18 @@ const projectsData = [
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
 
     <!-- Footer Note -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
             <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:top;width:600px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -987,22 +943,18 @@ const projectsData = [
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
 
     <!-- Sign-off -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
             <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:top;width:600px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -1018,22 +970,18 @@ const projectsData = [
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
 
     <!-- Legal Footer -->
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div style="margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
             <td style="direction:ltr;font-size:0px;padding:30px 0px 20px 0px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:top;width:600px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
@@ -1048,18 +996,15 @@ const projectsData = [
                   </tbody>
                 </table>
               </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
             </td>
           </tr>
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
   </div>
 </body>
 </html>`
   },
-
   {
     id: 'Outreach Campaign 1',
     title: 'Editorial Outreach Design',
@@ -1068,54 +1013,22 @@ const projectsData = [
     image: 'https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/284a9e8e-dece-2c71-8244-69b98bda7c8a.png',
     tech: ['Mailshake', 'html', 'campaign'],
     code: `
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
-    xmlns:o="urn:schemas-microsoft-com:office:office">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Spartan SEM - Editorial Authority</title>
-    <!--[if mso]>
-  <xml>
-    <o:OfficeDocumentSettings>
-      <o:AllowPNG/>
-      <o:PixelsPerInch>96</o:PixelsPerInch>
-    </o:OfficeDocumentSettings>
-  </xml>
-  <![endif]-->
     <style type="text/css">
         /* RESET & BASE */
-        body,
-        table,
-        td,
-        a {
-            -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-        }
+        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+        table { border-collapse: collapse !important; }
 
-        table,
-        td {
-            mso-table-lspace: 0pt;
-            mso-table-rspace: 0pt;
-        }
-
-        img {
-            -ms-interpolation-mode: bicubic;
-            border: 0;
-            height: auto;
-            line-height: 100%;
-            outline: none;
-            text-decoration: none;
-        }
-
-        table {
-            border-collapse: collapse !important;
-        }
-
-        /* Brand Font Stack: STRICTLY SANS-SERIF */
+        /* Brand Font Stack */
         body {
             height: 100% !important;
             margin: 0 !important;
@@ -1126,47 +1039,13 @@ const projectsData = [
             color: #140A09;
         }
 
-        .wrapper {
-            width: 100%;
-            table-layout: fixed;
-            background-color: #FFF8EF;
-            padding: 20px 0;
-        }
-
-        .main {
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-            background-color: #ffffff;
-        }
+        .wrapper { width: 100%; table-layout: fixed; background-color: #FFF8EF; padding: 20px 0; }
+        .main { width: 100%; max-width: 600px; margin: 0 auto; background-color: #ffffff; }
 
         /* TEXT STYLES */
-        .headline {
-            font-size: 26px;
-            line-height: 1.2;
-            font-weight: bold;
-            color: #140A09;
-            margin: 0 0 16px 0;
-            mso-line-height-rule: exactly;
-        }
-
-        .body-text {
-            font-size: 15px;
-            line-height: 1.6;
-            color: #140A09;
-            margin: 0 0 24px 0;
-            mso-line-height-rule: exactly;
-        }
-
-        .eyebrow {
-            font-size: 10px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 2.5px;
-            color: #D88D2A;
-            margin-bottom: 12px;
-            display: block;
-        }
+        .headline { font-size: 26px; line-height: 1.2; font-weight: bold; color: #140A09; margin: 0 0 16px 0; }
+        .body-text { font-size: 15px; line-height: 1.6; color: #140A09; margin: 0 0 24px 0; }
+        .eyebrow { font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 2.5px; color: #D88D2A; margin-bottom: 12px; display: block; }
 
         /* COMPONENTS */
         .btn {
@@ -1194,217 +1073,72 @@ const projectsData = [
             color: #681211;
         }
 
-        .box-title {
-            font-size: 18px;
-            line-height: 1.3;
-            font-weight: bold;
-            color: #681211;
-            margin: 0 0 12px 0;
-        }
-
-        .box-text {
-            font-size: 14px;
-            line-height: 1.5;
-            color: #140A09;
-            margin: 0;
-        }
+        .box-title { font-size: 18px; line-height: 1.3; font-weight: bold; color: #681211; margin: 0 0 12px 0; }
+        .box-text { font-size: 14px; line-height: 1.5; color: #140A09; margin: 0; }
 
         /* TESTIMONIAL */
-        .testimonial-area {
-            background-color: #FFF8EF;
-            padding: 60px 40px;
-            text-align: center;
-            border-top: 1px solid #f2ece4;
-        }
-
-        .quote-text {
-            font-size: 17px;
-            line-height: 1.5;
-            color: #140A09;
-            font-weight: normal;
-            margin-bottom: 20px;
-            font-style: italic;
-        }
-
-        .quote-source {
-            font-size: 13px;
-            font-weight: bold;
-            color: #A12F25;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-        }
+        .testimonial-area { background-color: #FFF8EF; padding: 60px 40px; text-align: center; border-top: 1px solid #f2ece4; }
+        .quote-text { font-size: 17px; line-height: 1.5; color: #140A09; font-weight: normal; margin-bottom: 20px; font-style: italic; }
+        .quote-source { font-size: 13px; font-weight: bold; color: #A12F25; text-transform: uppercase; letter-spacing: 1.5px; }
 
         /* FOUNDER SECTION */
-        .founder-bio {
-            background-color: #ffffff;
-            padding: 40px 50px;
-            border-top: 1px solid #f2ece4;
-        }
+        .founder-bio { background-color: #ffffff; padding: 40px 50px; border-top: 1px solid #f2ece4; }
+        .headshot { border: 3px solid #EAB14C; padding: 3px; border-radius: 2px; background-color: #ffffff; }
+        .footer { padding: 60px 40px; text-align: center; background-color: #140A09; color: #FFF8EF; }
 
-        .headshot {
-            border: 3px solid #EAB14C;
-            padding: 3px;
-            border-radius: 2px;
-            background-color: #ffffff;
-        }
-
-        .footer {
-            padding: 60px 40px;
-            text-align: center;
-            background-color: #140A09;
-            color: #FFF8EF;
-        }
-
-        /* RESPONSIVE MEDIA QUERIES */
         @media screen and (max-width: 600px) {
-            .content-padding {
-                padding: 30px 20px !important;
-            }
-
-            .headline {
-                font-size: 24px !important;
-                line-height: 1.3 !important;
-            }
-
-            .body-text {
-                font-size: 14px !important;
-                line-height: 1.5 !important;
-            }
-
-            .main {
-                width: 100% !important;
-                max-width: 100% !important;
-            }
-
-            .stack {
-                display: block !important;
-                width: 100% !important;
-                box-sizing: border-box !important;
-            }
-
-            .mobile-center {
-                text-align: center !important;
-            }
-
-            .mobile-padding-top {
-                padding-top: 30px !important;
-            }
-
-            .col-stack {
-                display: block !important;
-                width: 100% !important;
-                padding: 0 !important;
-            }
-
-            .pill-stack {
-                display: block !important;
-                width: 100% !important;
-                margin: 0 0 10px 0 !important;
-                text-align: center !important;
-            }
-
-            .img-max {
-                width: 100% !important;
-                max-width: 200px !important;
-                margin: 0 auto !important;
-                height: auto !important;
-            }
-
-            .btn {
-                display: block !important;
-                padding-left: 0 !important;
-                padding-right: 0 !important;
-                box-sizing: border-box;
-                width: 100% !important;
-            }
-
-            .mobile-box-spacer {
-                height: 15px !important;
-                display: block !important;
-            }
-
-            .equal-height-cell {
-                border-bottom: 1px solid #EAB14C !important;
-                margin-bottom: 15px !important;
-                display: block !important;
-                width: 100% !important;
-                box-sizing: border-box !important;
-            }
-
-            .testimonial-area {
-                padding: 40px 20px !important;
-            }
-
-            .founder-bio {
-                padding: 40px 20px !important;
-            }
+            .content-padding { padding: 30px 20px !important; }
+            .headline { font-size: 24px !important; line-height: 1.3 !important; }
+            .body-text { font-size: 14px !important; line-height: 1.5 !important; }
+            .main { width: 100% !important; max-width: 100% !important; }
+            .stack { display: block !important; width: 100% !important; box-sizing: border-box !important; }
+            .mobile-center { text-align: center !important; }
+            .mobile-padding-top { padding-top: 30px !important; }
+            .col-stack { display: block !important; width: 100% !important; padding: 0 !important; }
+            .pill-stack { display: block !important; width: 100% !important; margin: 0 0 10px 0 !important; text-align: center !important; }
+            .img-max { width: 100% !important; max-width: 200px !important; margin: 0 auto !important; height: auto !important; }
+            .btn { display: block !important; padding-left: 0 !important; padding-right: 0 !important; box-sizing: border-box; width: 100% !important; }
+            .mobile-box-spacer { height: 15px !important; display: block !important; }
+            .equal-height-cell { border-bottom: 1px solid #EAB14C !important; margin-bottom: 15px !important; display: block !important; width: 100% !important; box-sizing: border-box !important; }
+            .testimonial-area { padding: 40px 20px !important; }
+            .founder-bio { padding: 40px 20px !important; }
         }
     </style>
 </head>
 
 <body style="margin:0; padding:0; background-color:#FFF8EF;">
     <div class="wrapper">
-        <!--[if mso]>
-    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation">
-    <tr>
-    <td align="center" valign="top" width="600">
-    <![endif]-->
-        <table role="presentation" class="main" align="center" cellspacing="0" cellpadding="0" border="0" width="100%"
-            style="max-width: 600px; box-shadow: 0 10px 30px rgba(20, 10, 9, 0.05);">
-
-            <!-- Top Brand Accent Bar -->
+        <table role="presentation" class="main" align="center" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 600px; box-shadow: 0 10px 30px rgba(20, 10, 9, 0.05);">
             <tr>
                 <td height="6" style="background-color: #681211; line-height: 6px; font-size: 6px;">&nbsp;</td>
             </tr>
-
-            <!-- Logo Header -->
             <tr>
                 <td style="padding: 30px 0; text-align: center; background-color: #ffffff;">
-                    <a href="https://spartansem.com/"><img
-                            src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-c6ec832/spartansem.com/wp-content/uploads/2026/01/spartan-horizontal-logo-1024x245.png"
-                            alt="Spartan SEM" width="180" border="0"
-                            style="display: block; margin: 0 auto; max-width: 180px;"></a>
+                    <a href="https://spartansem.com/"><img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-c6ec832/spartansem.com/wp-content/uploads/2026/01/spartan-horizontal-logo-1024x245.png" alt="Spartan SEM" width="180" border="0" style="display: block; margin: 0 auto; max-width: 180px;"></a>
                 </td>
             </tr>
-
-            <!-- Hero Split Section -->
             <tr>
                 <td style="padding: 40px 50px; background-color: #ffffff;" class="content-padding">
                     <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                         <tr>
-                            <!-- Text Side -->
                             <td width="300" valign="middle" class="stack mobile-center">
                                 <span class="eyebrow" style="color:#A12F25;">Expertise for Consultancies</span>
-                                <h1 class="headline">Visibility matters. The <span style="color:#A12F25;">right
-                                        partner</span> matters too.</h1>
-                                <p class="body-text">
-                                    The goal is not just more exposure. It is getting your firm in front of the right
-                                    buyers when they are evaluating options.
-                                </p>
+                                <h1 class="headline">Visibility matters. The <span style="color:#A12F25;">right partner</span> matters too.</h1>
+                                <p class="body-text">The goal is not just more exposure. It is getting your firm in front of the right buyers when they are evaluating options.</p>
                                 <div class="btn-wrap">
-                                    <a href="https://calendly.com/spartansem/complimentary-consultation/"
-                                        class="btn">Book a Strategy Call</a>
+                                    <a href="https://calendly.com/spartansem/complimentary-consultation/" class="btn">Book a Strategy Call</a>
                                 </div>
                             </td>
-                            <!-- Image Side -->
-                            <td width="200" valign="middle" style="padding-left: 30px;"
-                                class="stack mobile-padding-top mobile-center">
-                                <img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2026/01/spartan-logo-hero-bright.webp"
-                                    alt="Spartan SEM Strategy" width="220" border="0" class="img-max"
-                                    style="width: 100%; max-width: 220px; height: auto; display: block; margin: 0 auto;">
+                            <td width="200" valign="middle" style="padding-left: 30px;" class="stack mobile-padding-top mobile-center">
+                                <img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2026/01/spartan-logo-hero-bright.webp" alt="Spartan SEM Strategy" width="220" border="0" class="img-max" style="width: 100%; max-width: 220px; height: auto; display: block; margin: 0 auto;">
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
-
-            <!-- Narrative Section -->
             <tr>
                 <td style="padding: 60px 50px; background-color: #FFF8EF;" class="content-padding">
-
-                    <!-- Pillars -->
-                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"
-                        style="margin-bottom: 40px;">
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-bottom: 40px;">
                         <tr>
                             <td align="center" style="font-size: 0;">
                                 <div class="pill-stack" style="display: inline-block; padding: 5px;">
@@ -1419,105 +1153,61 @@ const projectsData = [
                             </td>
                         </tr>
                     </table>
-
-                    <p class="body-text"
-                        style="font-weight: bold; font-size: 18px; color: #A12F25; margin-bottom: 20px;">
-                        A simpler standard for growth.
-                    </p>
-                    <p class="body-text" style="margin-bottom: 40px;">
-                        Spartan SEM was built for businesses tired of jargon and vanity metrics. We focus on showing up
-                        where the right buyers are searching and tracking what actually drives growth.
-                    </p>
-
-                    <!-- Equal Height Boxes Section -->
-                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0"
-                        style="table-layout: fixed;">
+                    <p class="body-text" style="font-weight: bold; font-size: 18px; color: #A12F25; margin-bottom: 20px;">A simpler standard for growth.</p>
+                    <p class="body-text" style="margin-bottom: 40px;">Spartan SEM was built for businesses tired of jargon and vanity metrics. We focus on showing up where the right buyers are searching and tracking what actually drives growth.</p>
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="table-layout: fixed;">
                         <tr>
-                            <!-- Box 1 -->
-                            <td width="240" valign="top" class="stack equal-height-cell"
-                                style="background-color: #ffffff; border: 1px solid #EAB14C; padding: 25px;">
+                            <td width="240" valign="top" class="stack equal-height-cell" style="background-color: #ffffff; border: 1px solid #EAB14C; padding: 25px;">
                                 <p class="box-title" style="margin-top:0;">What Spartan brings</p>
-                                <p class="box-text">Direct ownership, transparent strategy, and visibility work built
-                                    around how buyers actually search and shortlist providers.</p>
+                                <p class="box-text">Direct ownership, transparent strategy, and visibility work built around how buyers actually search and shortlist providers.</p>
                             </td>
-                            <!-- Spacer Column -->
-                            <td width="20" class="stack mobile-box-spacer" style="font-size: 0; line-height: 0;">&nbsp;
-                            </td>
-                            <!-- Box 2 -->
-                            <td width="240" valign="top" class="stack equal-height-cell"
-                                style="background-color: #ffffff; border: 1px solid #EAB14C; padding: 25px;">
+                            <td width="20" class="stack mobile-box-spacer" style="font-size: 0; line-height: 0;">&nbsp;</td>
+                            <td width="240" valign="top" class="stack equal-height-cell" style="background-color: #ffffff; border: 1px solid #EAB14C; padding: 25px;">
                                 <p class="box-title" style="margin-top:0;">What you leave with</p>
-                                <p class="box-text">A clearer view of where visibility is strong or weak, where demand
-                                    exists, and what practical next steps make sense.</p>
+                                <p class="box-text">A clearer view of where visibility is strong or weak, where demand exists, and what practical next steps make sense.</p>
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
-
-            <!-- Testimonial Section -->
             <tr>
                 <td class="testimonial-area content-padding">
                     <span class="eyebrow">What clients notice</span>
-                    <p class="quote-text">
-                        “Alec has had a tremendous impact on my practice in only a few months. Prior to working with
-                        Spartan SEM, I had a website and was running Google Ads, but did not have a good handle with my
-                        return on investment. Alec helped me to optimize my dollars spent and each month he goes over
-                        the performance, always optimizing so I have an objective sense of how things are going. In the
-                        past two weeks I’ve hit record numbers with both new patients and patient visits, largely due to
-                        our new approach with online presence. I would highly recommend working with Alec!”
-                    </p>
+                    <p class="quote-text">“Alec has had a tremendous impact on my practice in only a few months. Prior to working with Spartan SEM, I had a website and was running Google Ads, but did not have a good handle with my return on investment. Alec helped me to optimize my dollars spent and each month he goes over the performance, always optimizing so I have an objective sense of how things are going. In the past two weeks I’ve hit record numbers with both new patients and patient visits, largely due to our new approach with online presence. I would highly recommend working with Alec!”</p>
                     <p class="quote-source">Jordan Savara<br />Owner, Crystal Springs Chiropractic</p>
                 </td>
             </tr>
-
-            <!-- Founder Section -->
             <tr>
                 <td class="founder-bio content-padding">
                     <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                         <tr>
                             <td width="100" valign="top" class="stack mobile-center">
-                                <img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2026/01/alec-headshot-723x1024.webp"
-                                    alt="Alec" width="100" border="0" class="headshot"
-                                    style="display: block; margin: 0 auto;">
+                                <img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2026/01/alec-headshot-723x1024.webp" alt="Alec" width="100" border="0" class="headshot" style="display: block; margin: 0 auto;">
                             </td>
-                            <td valign="middle" style="padding-left: 25px;"
-                                class="stack mobile-padding-top mobile-center">
+                            <td valign="middle" style="padding-left: 25px;" class="stack mobile-padding-top mobile-center">
                                 <p style="margin:0; font-size: 14px; font-weight: bold; color: #140A09;">Alec</p>
-                                <p
-                                    style="margin:0; font-size: 12px; color: #A12F25; text-transform: uppercase; letter-spacing: 1px;">
-                                    Founder, Spartan SEM</p>
-                                <p style="margin:10px 0 0 0; font-size: 13px; line-height: 1.5; color: #444444;">Helping
-                                    consultancies turn visibility into a predictable engine for growth.</p>
+                                <p style="margin:0; font-size: 12px; color: #A12F25; text-transform: uppercase; letter-spacing: 1px;">Founder, Spartan SEM</p>
+                                <p style="margin:10px 0 0 0; font-size: 13px; line-height: 1.5; color: #444444;">Helping consultancies turn visibility into a predictable engine for growth.</p>
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
-
-            <!-- Checkpoint Section -->
             <tr>
                 <td style="padding: 60px 50px; background-color: #FFF8EF;" class="content-padding">
                     <span class="eyebrow" style="color:#A12F25;">What good looks like</span>
                     <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                         <tr>
-                            <td
-                                style="padding: 12px 0; font-size: 14px; color: #140A09; border-bottom: 1px solid #e4d8c9;">
-                                • Are you visible when your ICP is actively looking?</td>
+                            <td style="padding: 12px 0; font-size: 14px; color: #140A09; border-bottom: 1px solid #e4d8c9;">• Are you visible when your ICP is actively looking?</td>
                         </tr>
                         <tr>
-                            <td
-                                style="padding: 12px 0; font-size: 14px; color: #140A09; border-bottom: 1px solid #e4d8c9;">
-                                • Are you showing up around the right problems?</td>
+                            <td style="padding: 12px 0; font-size: 14px; color: #140A09; border-bottom: 1px solid #e4d8c9;">• Are you showing up around the right problems?</td>
                         </tr>
                         <tr>
-                            <td
-                                style="padding: 12px 0; font-size: 14px; color: #140A09; border-bottom: 1px solid #e4d8c9;">
-                                • Does your digital presence reinforce credibility quickly?</td>
+                            <td style="padding: 12px 0; font-size: 14px; color: #140A09; border-bottom: 1px solid #e4d8c9;">• Does your digital presence reinforce credibility quickly?</td>
                         </tr>
                         <tr>
-                            <td style="padding: 12px 0; font-size: 14px; color: #140A09;">• Can you clearly see what is
-                                working next?</td>
+                            <td style="padding: 12px 0; font-size: 14px; color: #140A09;">• Can you clearly see what is working next?</td>
                         </tr>
                     </table>
                     <div style="padding-top: 35px; text-align: left;">
@@ -1525,39 +1215,26 @@ const projectsData = [
                     </div>
                 </td>
             </tr>
-
-            <!-- Footer -->
             <tr>
                 <td class="footer">
                     <div align="center" style="margin-bottom: 25px;">
-                        <a href="https://spartansem.com/"><img
-                                src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2025/09/spartan-horizontal-logo-white.png"
-                                alt="Spartan SEM" width="140" border="0" style="max-width: 140px;"></a>
+                        <a href="https://spartansem.com/"><img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2025/09/spartan-horizontal-logo-white.png" alt="Spartan SEM" width="140" border="0" style="max-width: 140px;"></a>
                     </div>
                     <p style="margin:0 0 20px 0;">
                         <strong style="color: #EAB14C; letter-spacing: 1px;">SPARTAN SEM</strong><br />
-                        <a href="https://spartansem.com/"
-                            style="color: #FFF8EF; text-decoration: none; font-weight: bold;">spartansem.com</a>
+                        <a href="https://spartansem.com/" style="color: #FFF8EF; text-decoration: none; font-weight: bold;">spartansem.com</a>
                     </p>
                     <p style="margin:0;">
                         {{Mailing Address}}<br /><br />
-                        <a href="{{Unsubscribe Link}}"
-                            style="color: #A12F25; text-decoration: underline;">Unsubscribe</a>
+                        <a href="{{Unsubscribe Link}}" style="color: #A12F25; text-decoration: underline;">Unsubscribe</a>
                     </p>
                 </td>
             </tr>
         </table>
-        <!--[if mso]>
-    </td>
-    </tr>
-    </table>
-    <![endif]-->
     </div>
 </body>
-
 </html>`
   },
-
   {
     id: 'Outreach Campaign dark',
     title: 'Dark Mode Outreach',
@@ -1573,22 +1250,12 @@ const projectsData = [
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Spartan SEM - Dark Creative Authority</title>
-  <!--[if mso]>
-  <xml>
-    <o:OfficeDocumentSettings>
-      <o:AllowPNG/>
-      <o:PixelsPerInch>96</o:PixelsPerInch>
-    </o:OfficeDocumentSettings>
-  </xml>
-  <![endif]-->
   <style type="text/css">
-    /* RESET & BASE */
     body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
     table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
     img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
     table { border-collapse: collapse !important; }
     
-    /* Brand Font Stack: STRICTLY SANS-SERIF */
     body { 
       height: 100% !important; 
       margin: 0 !important; 
@@ -1599,33 +1266,26 @@ const projectsData = [
       color: #FFF8EF; 
     }
 
-    /* LAYOUT */
     .wrapper { width: 100%; table-layout: fixed; background-color: #0c0606; padding: 20px 0; }
     .main { width: 100%; max-width: 600px; margin: 0 auto; background-color: #140A09; }
     
-    /* TEXT STYLES */
-    .headline { font-size: 26px; line-height: 1.1; font-weight: bold; color: #FFF8EF; margin: 0 0 12px 0; mso-line-height-rule: exactly; }
-    .body-text { font-size: 15px; line-height: 1.6; color: #FFF8EF; margin: 0 0 24px 0; mso-line-height-rule: exactly; opacity: 0.9; }
+    .headline { font-size: 26px; line-height: 1.1; font-weight: bold; color: #FFF8EF; margin: 0 0 12px 0; }
+    .body-text { font-size: 15px; line-height: 1.6; color: #FFF8EF; margin: 0 0 24px 0; opacity: 0.9; }
     .eyebrow { font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; color: #EAB14C; margin-bottom: 12px; display: block; }
     
-    /* COMPONENTS */
     .btn { background-color: #A12F25; color: #ffffff !important; text-decoration: none; padding: 18px 36px; border-radius: 2px; font-weight: bold; display: inline-block; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; text-align: center; }
     .feature-card { background-color: #1a100f; border: 1px solid #2a1a18; padding: 22px; height: 160px; box-sizing: border-box; }
     .card-title { font-size: 16px; font-weight: bold; color: #EAB14C; margin: 0 0 8px 0; }
     .card-text { font-size: 13px; line-height: 1.5; color: #FFF8EF; opacity: 0.8; margin: 0; }
     .accent-bar { height: 4px; width: 40px; background-color: #A12F25; margin-bottom: 15px; }
     
-    /* TESTIMONIAL */
     .testimonial-area { background-color: #1a100f; border-top: 4px solid #681211; padding: 50px 40px; text-align: center; }
     .quote-text { font-size: 16px; line-height: 1.6; color: #FFF8EF; font-weight: bold; margin-bottom: 25px; font-style: italic; opacity: 0.95; }
     
-    /* FOUNDER SECTION */
     .founder-bio { background-color: #140A09; padding: 40px 50px; border-top: 1px solid #2a1a18; }
     .headshot { border: 3px solid #EAB14C; padding: 3px; border-radius: 2px; background-color: #1a100f; }
-
     .footer { padding: 60px 40px; text-align: center; border-top: 1px solid #2a1a18; font-size: 12px; color: #888888; background-color: #0c0606; }
     
-    /* RESPONSIVE MEDIA QUERIES */
     @media screen and (max-width: 600px) {
       .content-padding { padding: 30px 20px !important; }
       .headline { font-size: 22px !important; line-height: 1.2 !important; }
@@ -1643,37 +1303,24 @@ const projectsData = [
 </head>
 <body style="margin:0; padding:0; background-color:#0c0606;">
   <div class="wrapper">
-    <!--[if mso]>
-    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" role="presentation">
-    <tr>
-    <td align="center" valign="top" width="600">
-    <![endif]-->
     <table role="presentation" class="main" align="center" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 600px;">
-      
-      <!-- Logo Header -->
       <tr>
         <td style="padding: 45px 0 35px 0; text-align: center; background-color: #140A09;" class="content-padding">
-          <a href="https://spartansem.com/"><img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2025/09/spartan-horizontal-logo-white.png" alt="Spartan SEM" width="180" border="0" style="display: block; margin: 0 auto; max-width: 180px;"></a>
+          <a href="https://spartansem.com/"><img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2025/09/spartan-horizontal-logo-white.png" alt="Spartan SEM" width="140" border="0" style="max-width: 140px;"></a>
         </td>
       </tr>
-
-      <!-- Hero Section -->
       <tr>
         <td style="padding: 20px 50px 50px 50px;" class="content-padding">
           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
             <tr>
-              <!-- Text Side -->
               <td width="320" valign="middle" class="stack mobile-center">
                 <span class="eyebrow">Expertise for Consultancies</span>
                 <h1 class="headline">Visibility is not random. It is <span style="color:#EAB14C;">engineered.</span></h1>
-                <p class="body-text">
-                  Strong consultancies get found earlier when their digital presence is aligned to real buyer search behavior.
-                </p>
+                <p class="body-text font-inter">Strong consultancies get found earlier when their digital presence is aligned to real buyer search behavior.</p>
                 <div style="padding-top: 5px;">
                   <a href="https://calendly.com/spartansem/complimentary-consultation/" class="btn">Book Strategy Call</a>
                 </div>
               </td>
-              <!-- Image Side -->
               <td width="180" valign="middle" style="padding-left: 30px;" class="stack mobile-padding-top mobile-center">
                 <img src="https://spartansem.com/nitropack_static/YKWqimZsnefZRuJMcbPeSrTdKdFLFjWs/assets/images/optimized/rev-b850c45/spartansem.com/wp-content/uploads/2026/01/spartan-logo-hero-bright.webp" alt="Spartan SEM" width="200" border="0" class="img-max" style="width: 100%; max-width: 200px; height: auto; display: block; margin: 0 auto;">
               </td>
@@ -1681,102 +1328,72 @@ const projectsData = [
           </table>
         </td>
       </tr>
-
-      <!-- Grid Content Block -->
       <tr>
         <td style="padding: 60px 50px; background-color: #1a100f;" class="content-padding">
           <div class="accent-bar"></div>
-          <p class="body-text" style="font-weight: bold; font-size: 18px; color: #EAB14C; margin-bottom: 25px;">
-            Spartan SEM helps build that visibility by focusing on the inputs that actually shape discovery.
-          </p>
-          
-          <!-- Feature Grid (6 Cards) -->
+          <p class="body-text" style="font-weight: bold; font-size: 18px; color: #EAB14C; margin-bottom: 25px;">Spartan SEM helps build that visibility by focusing on the inputs that actually shape discovery.</p>
           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
             <tr>
               <td style="font-size: 0; text-align: center;">
-                <!--[if mso]>
-                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
-                <tr><td width="250" valign="top">
-                <![endif]-->
                 <div class="grid-item" style="display:inline-block; max-width:245px; vertical-align:top; width:100%; text-align: left;">
                   <div class="feature-card" style="margin-bottom:10px; margin-right: 5px;">
                     <p class="card-title">Buyer intent</p>
                     <p class="card-text">Start with what your ICP is actually searching for, including evaluation-stage signals.</p>
                   </div>
                 </div>
-                <!--[if mso]></td><td width="250" valign="top"><![endif]-->
                 <div class="grid-item" style="display:inline-block; max-width:245px; vertical-align:top; width:100%; text-align: left;">
                   <div class="feature-card" style="margin-bottom:10px; margin-left: 5px;">
                     <p class="card-title">Content alignment</p>
                     <p class="card-text">Build content around existing demand so your firm shows up where search points.</p>
                   </div>
                 </div>
-                <!--[if mso]></td></tr><tr><td width="250" valign="top"><![endif]-->
                 <div class="grid-item" style="display:inline-block; max-width:245px; vertical-align:top; width:100%; text-align: left;">
                   <div class="feature-card" style="margin-bottom:10px; margin-right: 5px;">
                     <p class="card-title">Authority signals</p>
                     <p class="card-text">Strengthen relevance so buyers and search engines take your firm seriously.</p>
                   </div>
                 </div>
-                <!--[if mso]></td><td width="250" valign="top"><![endif]-->
                 <div class="grid-item" style="display:inline-block; max-width:245px; vertical-align:top; width:100%; text-align: left;">
                   <div class="feature-card" style="margin-bottom:10px; margin-left: 5px;">
                     <p class="card-title">Site structure</p>
                     <p class="card-text">Make the website reinforce relevance and expertise instead of getting in the way.</p>
                   </div>
                 </div>
-                <!--[if mso]></td></tr><tr><td width="250" valign="top"><![endif]-->
                 <div class="grid-item" style="display:inline-block; max-width:245px; vertical-align:top; width:100%; text-align: left;">
                   <div class="feature-card" style="margin-bottom:10px; margin-right: 5px;">
                     <p class="card-title">Strategic paid</p>
                     <p class="card-text">Use selective paid visibility for immediate presence while momentum builds.</p>
                   </div>
                 </div>
-                <!--[if mso]></td><td width="250" valign="top"><![endif]-->
                 <div class="grid-item" style="display:inline-block; max-width:245px; vertical-align:top; width:100%; text-align: left;">
                   <div class="feature-card" style="margin-bottom:10px; margin-left: 5px;">
                     <p class="card-title">Reporting</p>
                     <p class="card-text">Turn performance into insight so efforts can be refined around what works.</p>
                   </div>
                 </div>
-                <!--[if mso]></td></tr></table><![endif]-->
               </td>
             </tr>
           </table>
         </td>
       </tr>
-
-      <!-- Why This Matters Section -->
       <tr>
         <td style="padding: 40px 50px 0 50px;" class="content-padding">
           <p class="eyebrow">Why this matters</p>
-          <p class="body-text" style="font-weight: bold; margin-bottom: 15px;">
-            The firms that get found first often get evaluated first.
-          </p>
-          <p class="body-text" style="margin-bottom: 0;">
-            Spartan’s approach is built to improve visibility around real demand, so consultancies are more likely to appear when the right buyers are researching options and deciding who is the best fit.
-          </p>
+          <p class="body-text" style="font-weight: bold; margin-bottom: 15px;">The firms that get found first often get evaluated first.</p>
+          <p class="body-text" style="margin-bottom: 0;">Spartan’s approach is built to improve visibility around real demand, so consultancies are more likely to appear when the right buyers are researching options and deciding who is the best fit.</p>
         </td>
       </tr>
-
-      <!-- Learn More Button -->
       <tr>
         <td style="padding: 40px 50px; text-align: left;" class="content-padding">
           <a href="https://spartansem.com/" class="btn">Learn More</a>
         </td>
       </tr>
-
-      <!-- Testimonial Section -->
       <tr>
         <td class="testimonial-area content-padding">
           <span class="eyebrow" style="color: #EAB14C; font-size: 10px;">What clients notice</span>
-          <p class="quote-text">
-            “Working with Alec has allowed us to rank high on Google and I would say more than 60% of our business come in from Google searches, which I attribute to his efforts. He has also been very helpful in transforming our intake procedure by helping us have the appropriate tools in place make sure we are spending our marketing dollars wisely. I have recommended him to my close friends to help their business as well.”
-          </p>
+          <p class="quote-text">“Working with Alec has allowed us to rank high on Google and I would say more than 60% of our business come in from Google searches, which I attribute to his efforts. He has also been very helpful in transforming our intake procedure by helping us have the appropriate tools in place make sure we are spending our marketing dollars wisely. I have recommended him to my close friends to help their business as well.”</p>
         </td>
       </tr>
-
-      <!-- Founder Section -->
       <tr>
         <td class="founder-bio content-padding">
           <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
@@ -1793,8 +1410,6 @@ const projectsData = [
           </table>
         </td>
       </tr>
-
-      <!-- Footer -->
       <tr>
         <td class="footer content-padding">
           <div align="center" style="margin-bottom: 25px;">
@@ -1811,17 +1426,10 @@ const projectsData = [
         </td>
       </tr>
     </table>
-    <!--[if mso]>
-    </td>
-    </tr>
-    </table>
-    <![endif]-->
   </div>
 </body>
 </html>`
   },
-
-
   {
     id: 'arnold-logan',
     title: 'Arnold Logan Official',
@@ -1849,27 +1457,24 @@ const testimonialsData = [
   { id: 3, name: "jonathanan", location: "Israel", text: "Great seller will purchase your services again. High quality work and professional attitude.", stars: 5, platform: "Fiverr", category: "Email Design" },
   { id: 4, name: "belfast6789", location: "Canada", text: "He was polite, patient and delivered on time.....made the interaction smooth ...highly recommend ...second time I have worked with him.", stars: 5, platform: "Fiverr", category: "Email Design" },
   { id: 5, name: "Paystubs.net", location: "United States", text: "Prodip consistently delivered email templates on time and was reliable throughout our engagement.", stars: 5, platform: "Upwork", category: "Mailchimp Specialist" },
-
   { id: 6, name: "vmaior", location: "Romania", text: "Great job. We managed to deliver on time and on budget. Prodip was open to feedback.", stars: 5, platform: "Fiverr", category: "Email Design" },
-
-  { id: 7, name: "Alec Renner", location: "United StateS", text: "Prodip provided clean custom email marketing design templates that met expectations and were delivered promptly.", stars: 5, platform: "Upwork", category: "Email Marketing Design" }
-
+  { id: 7, name: "Alec Renner", location: "United States", text: "Prodip provided clean custom email marketing design templates that met expectations and were delivered promptly.", stars: 5, platform: "Upwork", category: "Email Marketing Design" }
 ];
 
 // --- Sub-Components ---
 
 const BrandLogo = ({ className = "" }) => (
-  <div className={`flex items-center gap-2 ${className}`}>
-    <div className="relative w-8 h-8 md:w-10 md:h-10 flex items-center justify-center bg-amber-500 rounded-xl shadow-[0_0_20px_rgba(245,158,11,0.4)] overflow-hidden group shrink-0 text-white">
-      <div className="absolute inset-0 bg-gradient-to-tr from-black/20 to-transparent" />
-      <span className="text-black font-black text-base md:text-xl italic tracking-tighter z-10 font-poppins">PR</span>
-      <div className="absolute -bottom-1 -right-1 bg-black p-0.5 rounded-tl-lg">
-        <Zap size={10} className="text-amber-500 fill-amber-500" />
+  <div className={`flex items-center gap-3 ${className}`}>
+    <div className="relative w-10 h-10 flex items-center justify-center bg-gradient-to-tr from-amber-500 to-violet-600 rounded-xl shadow-[0_0_20px_rgba(139,92,246,0.3)] overflow-hidden group shrink-0 text-white">
+      <div className="absolute inset-0 bg-black/10 backdrop-blur-sm" />
+      <span className="text-white font-black text-lg md:text-xl italic tracking-tighter z-10 font-poppins">PR</span>
+      <div className="absolute -bottom-1 -right-1 bg-black/40 p-0.5 rounded-tl-lg">
+        <Zap size={10} className="text-amber-400 fill-amber-400" />
       </div>
     </div>
     <div className="flex flex-col leading-none text-left font-poppins text-white">
-      <span className="text-sm md:text-lg font-black tracking-tighter bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent uppercase">Prodip</span>
-      <span className="text-[8px] md:text-[10px] font-bold tracking-[0.3em] text-amber-500 uppercase">Expert</span>
+      <span className="text-base md:text-lg font-black tracking-tight bg-gradient-to-r from-white via-slate-200 to-amber-300 bg-clip-text text-transparent uppercase">Prodip Roy</span>
+      <span className="text-[9px] font-bold tracking-[0.3em] text-violet-400 uppercase">Automation Architect</span>
     </div>
   </div>
 );
@@ -1877,18 +1482,18 @@ const BrandLogo = ({ className = "" }) => (
 const SafeImage = ({ src, alt, className }) => {
   const [error, setError] = useState(false);
   return (
-    <div className={`relative bg-white/5 overflow-hidden w-full h-48 md:h-64 ${className}`}>
+    <div className={`relative bg-slate-900/40 overflow-hidden w-full h-48 md:h-64 ${className}`}>
       {error ? (
-        <div className="w-full h-full flex flex-col items-center justify-center gap-2 text-gray-500 bg-[#111]">
-          <ImageIcon size={32} />
-          <span className="text-[8px] uppercase font-black tracking-widest text-center">Image Load Failed</span>
+        <div className="w-full h-full flex flex-col items-center justify-center gap-2 text-slate-500 bg-[#070913]">
+          <ImageIcon size={32} className="text-violet-500 animate-pulse" />
+          <span className="text-[9px] uppercase font-bold tracking-widest text-center text-slate-400">Loading Preview...</span>
         </div>
       ) : (
         <img
           src={src}
           alt={alt}
           onError={() => setError(true)}
-          className="w-full h-full object-cover transition-all duration-700"
+          className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
         />
       )}
     </div>
@@ -1914,57 +1519,97 @@ const CaseStudyView = ({ project, onBack }) => {
   };
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] pt-24 md:pt-32 pb-20 px-4 md:px-6 font-inter animate-in fade-in duration-500">
-      <div className="max-w-6xl mx-auto text-left">
-        <button onClick={onBack} className="flex items-center gap-2 text-amber-500 font-black uppercase text-[10px] md:text-xs tracking-widest mb-10 hover:text-white transition-colors">
-          <ArrowLeft size={16} /> <span>Back to Portfolio</span>
+    <div className="min-h-screen bg-[#030712] pt-24 md:pt-32 pb-20 px-4 md:px-6 font-inter animate-in fade-in duration-500">
+      <div className="max-w-7xl mx-auto text-left">
+        <button onClick={onBack} className="group flex items-center gap-2 text-violet-400 font-bold uppercase text-xs tracking-widest mb-10 hover:text-white transition-colors">
+          <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" /> <span>Back to Portfolio</span>
         </button>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-12">
-          <div className="lg:col-span-1 space-y-6 md:space-y-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12">
+          {/* Metadata Sidebar */}
+          <div className="lg:col-span-4 space-y-6 md:space-y-8">
             <div className="space-y-4 text-left">
               <div className="flex flex-wrap gap-2 text-left">
-                {project.tech.map(t => <span key={t} className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-[8px] md:text-[10px] font-black text-amber-500 uppercase tracking-widest">{t}</span>)}
+                {project.tech.map(t => (
+                  <span key={t} className="px-3 py-1 bg-violet-500/10 border border-violet-500/20 rounded-full text-[10px] font-bold text-violet-300 uppercase tracking-widest">
+                    {t}
+                  </span>
+                ))}
               </div>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black uppercase italic font-poppins text-white leading-tight">{project.title}</h2>
-              <p className="text-sm md:text-base text-gray-400 font-inter leading-relaxed">{project.description}</p>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black uppercase tracking-tight font-poppins text-white leading-tight bg-gradient-to-r from-white via-slate-200 to-violet-300 bg-clip-text text-transparent">
+                {project.title}
+              </h2>
+              <p className="text-sm md:text-base text-slate-400 font-inter leading-relaxed">{project.description}</p>
             </div>
-            <div className="p-4 md:p-6 bg-white/5 border border-white/10 rounded-2xl md:rounded-3xl text-left">
-              <h4 className="font-black text-[10px] md:text-xs uppercase text-amber-500 mb-2 md:mb-4 tracking-widest">Interactive Editor</h4>
-              <p className="text-[10px] md:text-xs text-gray-500 leading-relaxed">Edit the code below and see the real-time render on the right.</p>
+            
+            <div className="p-6 bg-slate-900/60 border border-slate-800/80 rounded-3xl text-left backdrop-blur-md shadow-xl relative overflow-hidden group">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-violet-600/10 rounded-full blur-2xl" />
+              <h4 className="font-bold text-xs uppercase text-amber-400 mb-2 tracking-widest flex items-center gap-2">
+                <Terminal size={14} /> Interactive Live Editor
+              </h4>
+              <p className="text-xs text-slate-400 leading-relaxed mb-4">Edit the raw MJML/HTML structure in the code tab, and the rendering instantly applies to the preview container.</p>
+              <div className="flex gap-2 text-[10px] text-slate-500 font-mono">
+                <span className="flex items-center gap-1"><CheckCircle2 size={10} className="text-emerald-500" /> Real-time Render</span>
+              </div>
             </div>
           </div>
 
-          <div className="lg:col-span-2 space-y-4 md:space-y-6">
-            <div className="flex p-1 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl w-fit">
-              <button onClick={() => setViewMode('preview')} className={`flex items-center gap-2 px-4 md:px-6 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all ${viewMode === 'preview' ? 'bg-amber-500 text-black shadow-lg shadow-amber-500/20' : 'text-gray-500 hover:text-white'}`}>
-                <Eye size={14} /> Preview
-              </button>
-              <button onClick={() => setViewMode('code')} className={`flex items-center gap-2 px-4 md:px-6 py-2 md:py-2.5 rounded-lg md:rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest transition-all ${viewMode === 'code' ? 'bg-amber-500 text-black shadow-lg shadow-amber-500/20' : 'text-gray-500 hover:text-white'}`}>
-                <Code size={14} /> Source Code
-              </button>
+          {/* Interactive Live Screen Panel */}
+          <div className="lg:col-span-8 space-y-4 md:space-y-6">
+            <div className="flex items-center justify-between p-2 bg-slate-900/60 border border-slate-800/80 rounded-2xl backdrop-blur-md">
+              <div className="flex p-1 bg-slate-950/80 border border-slate-800/60 rounded-xl">
+                <button 
+                  onClick={() => setViewMode('preview')} 
+                  className={`flex items-center gap-2 px-5 py-2 rounded-lg text-xs font-bold uppercase tracking-widest transition-all ${viewMode === 'preview' ? 'bg-gradient-to-r from-violet-600 to-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+                >
+                  <Eye size={13} /> Browser Live Preview
+                </button>
+                <button 
+                  onClick={() => setViewMode('code')} 
+                  className={`flex items-center gap-2 px-5 py-2 rounded-lg text-xs font-bold uppercase tracking-widest transition-all ${viewMode === 'code' ? 'bg-gradient-to-r from-violet-600 to-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'}`}
+                >
+                  <Code size={13} /> Source HTML Code
+                </button>
+              </div>
+
+              {viewMode === 'code' && (
+                <button onClick={copyToClipboard} className="flex items-center gap-1.5 px-3.5 py-2 bg-slate-800/80 hover:bg-violet-600 text-slate-200 hover:text-white rounded-xl transition-all text-xs font-bold">
+                  <Copy size={13} /> Copy Code
+                </button>
+              )}
             </div>
 
-            <div className="bg-[#111] border border-white/10 rounded-2xl md:rounded-[2.5rem] overflow-hidden shadow-2xl min-h-[400px] md:min-h-[600px] relative">
-              {viewMode === 'preview' ? (
-                <iframe
-                  title="Live Preview"
-                  srcDoc={localCode || "<html><body style='color:white; font-family:sans-serif; padding:40px; text-align:center;'>Preview unavailable.</body></html>"}
-                  className="w-full h-[400px] md:h-[600px] border-none bg-white"
-                />
-              ) : (
-                <div className="relative h-[400px] md:h-[600px] flex flex-col">
-                  <div className="absolute top-2 md:top-4 right-4 md:right-6 z-10">
-                    <button onClick={copyToClipboard} className="p-2 md:p-3 bg-white/10 text-white rounded-lg md:rounded-xl hover:bg-amber-500 hover:text-black transition-all" title="Copy"><Copy size={16} /></button>
-                  </div>
+            {/* Simulated Desktop Container */}
+            <div className="bg-slate-950 border border-slate-800/80 rounded-3xl overflow-hidden shadow-2xl min-h-[400px] md:min-h-[650px] relative flex flex-col">
+              {/* macOS Control Bar */}
+              <div className="flex items-center justify-between px-5 py-3.5 bg-slate-900/40 border-b border-slate-800/60">
+                <div className="flex items-center gap-1.5">
+                  <div className="w-3.5 h-3.5 rounded-full bg-red-500/80" />
+                  <div className="w-3.5 h-3.5 rounded-full bg-amber-500/80" />
+                  <div className="w-3.5 h-3.5 rounded-full bg-emerald-500/80" />
+                </div>
+                <div className="px-6 py-1 bg-slate-950/80 border border-slate-800/40 rounded-lg text-[10px] font-mono text-slate-500 w-full max-w-sm text-center truncate">
+                  {viewMode === 'preview' ? `localhost:3000/preview/${project.id}.html` : `src/templates/${project.id}.mjml`}
+                </div>
+                <div className="w-12" />
+              </div>
+
+              <div className="flex-1 flex flex-col relative bg-slate-950">
+                {viewMode === 'preview' ? (
+                  <iframe
+                    title="Live Preview"
+                    srcDoc={localCode || "<html><body style='color:white; font-family:sans-serif; padding:40px; text-align:center;'>Preview unavailable.</body></html>"}
+                    className="w-full flex-1 min-h-[500px] border-none bg-white"
+                  />
+                ) : (
                   <textarea
                     value={localCode}
                     onChange={(e) => setLocalCode(e.target.value)}
-                    className="flex-1 p-4 md:p-8 bg-black/50 font-mono text-[10px] md:text-sm text-amber-500/90 outline-none resize-none selection:bg-amber-500 selection:text-black"
+                    className="w-full flex-1 min-h-[500px] p-6 bg-slate-950/80 font-mono text-xs text-amber-300/90 outline-none resize-none selection:bg-violet-500/30"
                     spellCheck="false"
                   />
-                </div>
-              )}
+                )}
+              </div>
             </div>
           </div>
         </div>
@@ -1981,7 +1626,7 @@ const TestimonialSlider = () => {
     if (isPaused) return;
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % testimonialsData.length);
-    }, 5000);
+    }, 5500);
     return () => clearInterval(timer);
   }, [isPaused]);
 
@@ -1989,28 +1634,30 @@ const TestimonialSlider = () => {
   const prevSlide = () => setCurrentIndex((prev) => (prev - 1 + testimonialsData.length) % testimonialsData.length);
 
   return (
-    <div className="relative max-w-4xl mx-auto px-2 md:px-4 text-left" onMouseEnter={() => setIsPaused(true)} onMouseLeave={() => setIsPaused(false)}>
+    <div className="relative max-w-4xl mx-auto px-4 text-left" onMouseEnter={() => setIsPaused(true)} onMouseLeave={() => setIsPaused(false)}>
       <div className="overflow-hidden">
-        <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
+        <div className="flex transition-transform duration-700 ease-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
           {testimonialsData.map((t) => (
             <div key={t.id} className="w-full flex-shrink-0">
-              <div className="p-6 md:p-14 bg-[#111] border border-white/5 rounded-2xl md:rounded-[3rem] relative shadow-2xl mx-1 md:mx-2 text-left">
-                <Quote className="text-amber-500/10 absolute top-4 md:top-10 right-4 md:right-10" size={32} md:size={64} />
-                <div className="flex items-center gap-2 mb-4 md:mb-8">
-                  <div className="flex text-amber-500">
-                    {[...Array(t.stars)].map((_, i) => <Star key={i} size={12} md:size={14} fill="currentColor" />)}
+              <div className="p-8 md:p-14 bg-gradient-to-b from-slate-900/60 to-slate-900/30 border border-slate-800/60 rounded-3xl relative shadow-2xl mx-1 md:mx-2 text-left backdrop-blur-md overflow-hidden">
+                <div className="absolute top-0 right-0 w-64 h-64 bg-violet-600/5 rounded-full blur-3xl -z-10" />
+                <Quote className="text-violet-500/10 absolute top-8 right-8" size={80} />
+                <div className="flex items-center gap-3 mb-6 md:mb-8">
+                  <div className="flex text-amber-400 gap-0.5">
+                    {[...Array(t.stars)].map((_, i) => <Star key={i} size={14} fill="currentColor" className="stroke-none" />)}
                   </div>
-                  <span className="text-[8px] md:text-[10px] font-black uppercase text-gray-500 tracking-[0.2em]">{t.platform}</span>
+                  <div className="w-1.5 h-1.5 rounded-full bg-slate-800" />
+                  <span className="text-[10px] font-bold uppercase text-violet-400 tracking-widest">{t.platform} Verified Contract</span>
                 </div>
-                <p className="text-gray-200 italic text-sm md:text-xl leading-relaxed mb-6 md:mb-10 font-medium">"{t.text}"</p>
-                <div className="flex justify-between items-end border-t border-white/5 pt-4 md:pt-8">
+                <p className="text-slate-200 italic text-sm md:text-xl leading-relaxed mb-6 md:mb-10 font-medium">"{t.text}"</p>
+                <div className="flex justify-between items-end border-t border-slate-800/60 pt-6 md:pt-8">
                   <div>
-                    <h4 className="font-black text-sm md:text-lg uppercase text-white font-poppins tracking-wide">{t.name}</h4>
-                    <div className="flex items-center gap-1 text-[9px] md:text-xs text-amber-500/70 font-bold uppercase tracking-widest mt-1">
-                      <MapPin size={10} md:size={12} /> {t.location}
+                    <h4 className="font-bold text-sm md:text-lg uppercase text-white font-poppins tracking-wide">{t.name}</h4>
+                    <div className="flex items-center gap-1.5 text-xs text-slate-500 font-bold uppercase tracking-widest mt-1">
+                      <MapPin size={11} className="text-violet-500" /> {t.location}
                     </div>
                   </div>
-                  <span className="text-[7px] md:text-[10px] px-2 md:px-3 py-1 bg-amber-500/10 border border-amber-500/20 rounded-full text-amber-500 font-black uppercase tracking-widest">
+                  <span className="text-[9px] px-3.5 py-1.5 bg-violet-500/10 border border-violet-500/20 rounded-full text-violet-300 font-bold uppercase tracking-widest">
                     {t.category}
                   </span>
                 </div>
@@ -2020,19 +1667,19 @@ const TestimonialSlider = () => {
         </div>
       </div>
 
-      <button onClick={prevSlide} className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 p-3 bg-white/5 hover:bg-amber-500 hover:text-black rounded-full border border-white/10 transition-all z-10 text-gray-400">
-        <ChevronLeft size={24} />
+      <button onClick={prevSlide} className="hidden lg:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 p-4 bg-slate-900/80 hover:bg-violet-600 hover:text-white rounded-full border border-slate-800 transition-all z-10 text-slate-400">
+        <ChevronLeft size={20} />
       </button>
-      <button onClick={nextSlide} className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 p-3 bg-white/5 hover:bg-amber-500 hover:text-black rounded-full border border-white/10 transition-all z-10 text-gray-400">
-        <ChevronRight size={24} />
+      <button onClick={nextSlide} className="hidden lg:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-16 p-4 bg-slate-900/80 hover:bg-violet-600 hover:text-white rounded-full border border-slate-800 transition-all z-10 text-slate-400">
+        <ChevronRight size={20} />
       </button>
 
-      <div className="flex justify-center gap-2 md:gap-3 mt-6 md:mt-10">
+      <div className="flex justify-center gap-2 mt-8">
         {testimonialsData.map((_, idx) => (
           <button
             key={idx}
             onClick={() => setCurrentIndex(idx)}
-            className={`h-1 md:h-1.5 transition-all rounded-full ${currentIndex === idx ? 'w-6 md:w-8 bg-amber-500 shadow-[0_0_10px_rgba(245,158,11,0.5)]' : 'w-1.5 md:w-2 bg-white/10 hover:bg-white/30'}`}
+            className={`h-1.5 transition-all rounded-full ${currentIndex === idx ? 'w-8 bg-violet-500' : 'w-2 bg-slate-800 hover:bg-slate-700'}`}
           />
         ))}
       </div>
@@ -2054,7 +1701,7 @@ const App = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [chatInput, setChatInput] = useState("");
   const [chatMessages, setChatMessages] = useState([
-    { role: 'assistant', text: "Hello! I'm Prodip's AI Twin. I've helped him complete over 451 orders with a 100% success rate on Upwork and Fiverr. How can I help you scale today?" }
+    { role: 'assistant', text: "Hello! I'm Prodip's AI Companion. I can provide custom details on email campaign delivery, MJML optimization, and HubSpot workflow setups. What are we planning to build?" }
   ]);
   const [isTyping, setIsTyping] = useState(false);
   const chatEndRef = useRef(null);
@@ -2150,11 +1797,12 @@ const App = () => {
     }
   };
 
-  const handleSendMessage = async () => {
-    if (!chatInput.trim()) return;
-    const userMsg = chatInput;
+  const handleSendMessage = async (customText = "") => {
+    const textToSend = customText || chatInput;
+    if (!textToSend.trim()) return;
+    
     setChatInput("");
-    setChatMessages(prev => [...prev, { role: 'user', text: userMsg }]);
+    setChatMessages(prev => [...prev, { role: 'user', text: textToSend }]);
     setIsTyping(true);
 
     const systemPrompt = `You are the AI Twin of Prodip Roy. 
@@ -2162,7 +1810,7 @@ const App = () => {
     Fiverr Level 2 Seller, Upwork Top Rated. 451+ projects completed.
     Respond professionally and helpful in English.`;
 
-    const response = await callGemini(userMsg, systemPrompt);
+    const response = await callGemini(textToSend, systemPrompt);
     setIsTyping(false);
     setChatMessages(prev => [...prev, { role: 'assistant', text: response }]);
   };
@@ -2212,54 +1860,66 @@ const App = () => {
     { name: 'Contact', href: '#contact' },
   ];
 
+  const quickPrompts = [
+    "What is your deliverability rate?",
+    "Tell me about your HubSpot integration services",
+    "How fast can you deliver templates?"
+  ];
+
   return (
-    <div className="bg-[#0a0a0a] text-gray-100 min-h-screen selection:bg-amber-500/30 font-inter scroll-smooth">
+    <div className="bg-[#030712] text-slate-100 min-h-screen selection:bg-violet-500/30 font-inter scroll-smooth overflow-x-hidden relative">
+      
+      {/* Background Mesh Orbs */}
+      <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-violet-600/10 rounded-full blur-[160px] -z-10 pointer-events-none" />
+      <div className="absolute bottom-[20%] right-[-10%] w-[40%] h-[40%] bg-amber-500/5 rounded-full blur-[140px] -z-10 pointer-events-none" />
+
       <style>
         {`
           @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Inter:wght@400;500;600;700;900&display=swap');
           .font-poppins { font-family: 'Poppins', sans-serif; }
           .font-inter { font-family: 'Inter', sans-serif; }
-          body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; }
-          h1, h2, h3, h4, .nav-item, button { font-family: 'Poppins', sans-serif; font-weight: 800; }
+          body { font-family: 'Inter', sans-serif; background-color: #030712; }
+          h1, h2, h3, h4, .nav-item, button { font-family: 'Poppins', sans-serif; }
           .scrollbar-hide::-webkit-scrollbar { display: none; }
           .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
         `}
       </style>
 
       {/* Global Navigation */}
-      <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-[#0a0a0a]/95 backdrop-blur-md border-b border-white/10 py-3 md:py-4' : 'bg-transparent py-4 md:py-6'}`}>
+      <nav className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? 'bg-[#030712]/90 backdrop-blur-xl border-b border-slate-800/80 py-4 shadow-xl' : 'bg-transparent py-6'}`}>
         <div className="max-w-7xl mx-auto px-4 md:px-6 flex justify-between items-center">
           <button onClick={(e) => handleNavClick(e, '#hero')} className="flex items-center text-left">
             <BrandLogo />
           </button>
 
-          <div className="hidden md:flex items-center gap-6 lg:gap-8">
+          <div className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
-                className="nav-item text-[9px] lg:text-[10px] font-black text-gray-400 hover:text-amber-500 transition-colors uppercase tracking-[0.2em]"
+                className="nav-item text-xs font-bold text-slate-400 hover:text-violet-400 transition-colors uppercase tracking-[0.2em]"
               >
                 {item.name}
               </a>
             ))}
           </div>
-          <button className="md:hidden text-white p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          <button className="md:hidden text-white p-2.5 bg-slate-900 border border-slate-800 rounded-xl" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden fixed inset-0 bg-[#0a0a0a] z-[60] flex flex-col items-center justify-center gap-8 animate-in fade-in zoom-in duration-300">
-            <button className="absolute top-6 right-6 text-white" onClick={() => setIsMenuOpen(false)}><X size={32} /></button>
+          <div className="md:hidden fixed inset-0 bg-[#030712]/95 backdrop-blur-2xl z-[60] flex flex-col items-center justify-center gap-8 animate-in fade-in zoom-in-95 duration-300">
+            <button className="absolute top-6 right-6 text-white p-2 bg-slate-900 border border-slate-800 rounded-xl" onClick={() => setIsMenuOpen(false)}><X size={24} /></button>
+            <BrandLogo className="mb-6" />
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
-                className="text-xl font-black text-white hover:text-amber-500 transition-colors uppercase tracking-widest font-poppins"
+                className="text-xl font-bold text-white hover:text-violet-400 transition-colors uppercase tracking-widest font-poppins"
               >
                 {item.name}
               </a>
@@ -2274,43 +1934,76 @@ const App = () => {
           href={whatsappLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-12 h-12 md:w-14 md:h-14 bg-[#25D366] text-white rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.4)] flex items-center justify-center hover:scale-110 active:scale-95 transition-all border-2 border-black/10 group"
+          className="w-14 h-14 bg-[#25D366] text-white rounded-full shadow-[0_8px_30px_rgba(37,211,102,0.4)] flex items-center justify-center hover:scale-110 active:scale-95 transition-all border-2 border-black/10 group"
+          title="Connect via WhatsApp"
         >
-          <MessageCircle size={24} md:size={28} className="group-hover:rotate-12 transition-transform" />
+          <MessageCircle size={26} className="group-hover:rotate-12 transition-transform" />
         </a>
         {!isChatOpen && (
-          <button onClick={() => setIsChatOpen(true)} className="w-12 h-12 md:w-14 md:h-14 bg-amber-500 text-black rounded-full shadow-[0_4px_20px_rgba(245,158,11,0.4)] flex items-center justify-center hover:scale-110 active:scale-95 transition-all border-2 border-black/10 group relative">
-            <Bot size={24} md:size={28} className="group-hover:rotate-12 transition-transform" />
-            <div className="absolute -top-1 -right-1 w-3 h-3 md:w-4 md:h-4 bg-red-500 rounded-full border-2 border-[#0a0a0a]" />
+          <button 
+            onClick={() => setIsChatOpen(true)} 
+            className="w-14 h-14 bg-gradient-to-tr from-violet-600 to-indigo-600 text-white rounded-full shadow-[0_8px_30px_rgba(139,92,246,0.4)] flex items-center justify-center hover:scale-110 active:scale-95 transition-all border-2 border-slate-800/80 group relative"
+            title="Chat with AI Twin"
+          >
+            <Bot size={26} className="group-hover:rotate-12 transition-transform" />
+            <span className="absolute top-0 right-0 w-3.5 h-3.5 bg-emerald-500 rounded-full border-2 border-slate-950 animate-ping" />
+            <span className="absolute top-0 right-0 w-3.5 h-3.5 bg-emerald-500 rounded-full border-2 border-slate-950" />
           </button>
         )}
       </div>
 
       {/* Chat Window */}
       {isChatOpen && (
-        <div className="fixed bottom-6 right-4 md:right-6 z-[70] w-[calc(100%-2rem)] sm:w-[350px] md:w-[400px] h-[450px] md:h-[500px] bg-[#111] border border-white/10 rounded-2xl md:rounded-3xl shadow-2xl flex flex-col overflow-hidden animate-in slide-in-from-bottom-10 text-left">
-          <div className="p-4 bg-amber-500 flex justify-between items-center">
-            <div className="flex items-center gap-3 text-left">
-              <div className="w-8 h-8 md:w-10 md:h-10 bg-black rounded-full flex items-center justify-center text-amber-500"><Bot size={20} md:size={22} /></div>
+        <div className="fixed bottom-6 right-4 md:right-6 z-[70] w-[calc(100%-2rem)] sm:w-[380px] md:w-[420px] h-[520px] md:h-[580px] bg-slate-900 border border-slate-800/90 rounded-3xl shadow-2xl flex flex-col overflow-hidden animate-in slide-in-from-bottom-12 text-left">
+          {/* Header */}
+          <div className="p-4 bg-gradient-to-r from-violet-700 to-slate-900 flex justify-between items-center border-b border-slate-800">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-slate-950 rounded-full flex items-center justify-center text-violet-400 border border-violet-500/20"><Bot size={22} /></div>
               <div>
-                <h4 className="font-black text-black text-xs md:text-sm uppercase leading-none font-poppins text-left">AI Twin</h4>
-                <p className="text-[8px] md:text-[10px] text-black/70 font-black tracking-widest uppercase mt-1 italic text-left">Active</p>
+                <h4 className="font-bold text-white text-sm uppercase leading-none font-poppins">Prodip's AI Twin</h4>
+                <div className="flex items-center gap-1.5 mt-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  <p className="text-[10px] text-emerald-400 font-bold uppercase tracking-widest leading-none">Ready to Help</p>
+                </div>
               </div>
             </div>
-            <button onClick={() => setIsChatOpen(false)} className="text-black/70 hover:text-black transition-colors"><X size={20} /></button>
+            <button onClick={() => setIsChatOpen(false)} className="text-slate-400 hover:text-white p-1.5 bg-slate-950/40 rounded-lg transition-colors"><X size={18} /></button>
           </div>
-          <div className="flex-1 overflow-y-auto p-4 space-y-4 bg-[#0a0a0a] scrollbar-hide text-left">
+
+          {/* Conversation History */}
+          <div className="flex-1 overflow-y-auto p-4 space-y-4 bg-slate-950 scrollbar-hide text-left">
             {chatMessages.map((msg, i) => (
               <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-                <div className={`max-w-[85%] p-3 rounded-xl md:rounded-2xl text-[12px] md:text-sm leading-relaxed ${msg.role === 'user' ? 'bg-amber-500 text-black rounded-tr-none' : 'bg-white/5 border border-white/10 text-gray-100 rounded-tl-none shadow-xl'}`}>
+                <div className={`max-w-[85%] p-3.5 rounded-2xl text-xs md:text-sm leading-relaxed ${msg.role === 'user' ? 'bg-violet-600 text-white rounded-tr-none' : 'bg-slate-900 border border-slate-800 text-slate-200 rounded-tl-none shadow-xl'}`}>
                   {msg.text}
                 </div>
               </div>
             ))}
-            {isTyping && <div className="flex justify-start text-left"><div className="bg-white/5 border border-white/10 p-2 md:p-3 rounded-xl md:rounded-2xl animate-pulse text-amber-500 text-[8px] md:text-[10px] font-black uppercase">Thinking...</div></div>}
+            {isTyping && (
+              <div className="flex justify-start text-left">
+                <div className="bg-slate-900 border border-slate-800 p-3 rounded-2xl rounded-tl-none animate-pulse text-violet-400 text-[10px] font-bold uppercase tracking-widest flex items-center gap-1.5">
+                  <RefreshCw size={12} className="animate-spin" /> Thinking...
+                </div>
+              </div>
+            )}
             <div ref={chatEndRef} />
           </div>
-          <div className="p-3 md:p-4 border-t border-white/5 bg-black/40">
+
+          {/* Quick suggestions */}
+          <div className="p-2 border-t border-slate-800 bg-slate-950 overflow-x-auto whitespace-nowrap scrollbar-hide flex gap-2">
+            {quickPrompts.map((p, idx) => (
+              <button 
+                key={idx} 
+                onClick={() => handleSendMessage(p)}
+                className="px-3 py-1.5 bg-slate-900 border border-slate-800 text-[10px] font-bold rounded-lg text-slate-300 hover:text-white hover:border-violet-500/40 transition-all inline-block shrink-0"
+              >
+                {p}
+              </button>
+            ))}
+          </div>
+
+          {/* Text Input Panel */}
+          <div className="p-3 md:p-4 border-t border-slate-800 bg-slate-900">
             <div className="relative font-mono flex items-center">
               <input
                 type="text"
@@ -2318,9 +2011,15 @@ const App = () => {
                 onChange={(e) => setChatInput(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
                 placeholder="Ask me anything..."
-                className="w-full bg-white/5 border border-white/10 rounded-lg md:rounded-xl px-4 py-2 md:py-3 text-[12px] md:text-sm focus:outline-none focus:border-amber-500/50 pr-10 md:pr-12 font-medium text-white"
+                className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-xs md:text-sm focus:outline-none focus:border-violet-500 pr-12 font-medium text-white placeholder:text-slate-600"
               />
-              <button onClick={handleSendMessage} disabled={!chatInput.trim() || isTyping} className="absolute right-2 md:right-3 p-1.5 md:p-2 text-amber-500 disabled:opacity-30"><Send size={16} md:size={18} /></button>
+              <button 
+                onClick={() => handleSendMessage()} 
+                disabled={!chatInput.trim() || isTyping} 
+                className="absolute right-2 p-2 text-violet-400 hover:text-white transition-colors disabled:opacity-30"
+              >
+                <Send size={18} />
+              </button>
             </div>
           </div>
         </div>
@@ -2328,116 +2027,208 @@ const App = () => {
 
       {currentPage === 'home' ? (
         <div id="home-wrapper">
+          
           {/* Hero Section */}
           <section id="hero" className="relative pt-32 md:pt-48 pb-16 md:pb-32 overflow-hidden min-h-[90vh] md:min-h-[95vh] flex items-center text-left px-4">
-            <div className="absolute inset-0 z-0">
-              <img src="https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&q=80&w=1600" alt="Workstation" className="w-full h-full object-cover opacity-15 grayscale scale-105" />
-              <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-transparent to-[#0a0a0a]" />
-            </div>
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10 items-center">
-              <div className="text-left order-2 md:order-1">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-amber-500 text-[8px] md:text-[10px] font-bold uppercase tracking-widest mb-6 font-poppins italic text-left"><ShieldCheck size={12} className="text-blue-400" /> TOP RATED FREELANCER</div>
-                <h1 className="text-4xl sm:text-6xl lg:text-8xl font-black mb-4 md:mb-6 leading-[0.9] tracking-tighter uppercase font-poppins text-white">Scale Your <br /><span className="text-amber-500 not-italic">Impact.</span></h1>
-                <p className="text-sm md:text-lg text-gray-400 mb-6 md:mb-8 max-w-xl font-medium font-inter">Elite Marketing Designer & Developer. Specialized in HubSpot automation, Mailchimp campaigns, and conversion logic.</p>
-                <div className="flex flex-wrap gap-3 md:gap-4">
-                  <a href="#contact" onClick={(e) => handleNavClick(e, '#contact')} className="px-5 md:px-8 py-3 md:py-4 bg-amber-500 text-black font-black rounded-lg md:rounded-xl hover:bg-amber-400 transition-all flex items-center gap-2 group uppercase tracking-widest text-[10px] md:text-xs font-black font-poppins">Hire Prodip <ChevronRight size={16} /></a>
-                  <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="px-5 md:px-8 py-3 md:py-4 bg-white/5 border border-white/10 text-white font-black rounded-lg md:rounded-xl hover:bg-white/10 transition-all flex items-center gap-2 uppercase tracking-widest text-[10px] md:text-xs font-poppins">WhatsApp <MessageCircle size={16} className="text-[#25D366]" /></a>
+            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 relative z-10 items-center">
+              
+              <div className="text-left order-2 lg:order-1 lg:col-span-7 space-y-6">
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-500/10 border border-violet-500/30 text-violet-300 text-[10px] md:text-xs font-bold uppercase tracking-widest">
+                  <ShieldCheck size={14} className="text-amber-400" /> TOP RATED AUTOMATION ARCHITECT
+                </div>
+                
+                <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black mb-4 leading-[1.05] tracking-tight uppercase font-poppins text-white">
+                  Automate <br />
+                  <span className="bg-gradient-to-r from-violet-400 via-pink-400 to-amber-400 bg-clip-text text-transparent italic">Your Growth.</span>
+                </h1>
+                
+                <p className="text-slate-400 text-sm md:text-lg max-w-xl font-medium font-inter leading-relaxed">
+                  Elite Marketing Architect & Frontend Developer. Transforming leads through complex HubSpot CRM automation pipelines, pixel-perfect responsive email designs, and custom integration logic.
+                </p>
+                
+                {/* Stats Counters */}
+                <div className="grid grid-cols-3 gap-4 border-y border-slate-800/80 py-6 max-w-lg">
+                  <div>
+                    <h3 className="text-2xl md:text-3xl font-black text-white">451+</h3>
+                    <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest mt-1">Orders Delivered</p>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl md:text-3xl font-black text-violet-400">100%</h3>
+                    <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest mt-1">Success Rating</p>
+                  </div>
+                  <div>
+                    <h3 className="text-2xl md:text-3xl font-black text-amber-400">6+ Yrs</h3>
+                    <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest mt-1">Industry Expert</p>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap gap-3 md:gap-4 pt-4">
+                  <a href="#contact" onClick={(e) => handleNavClick(e, '#contact')} className="px-6 md:px-8 py-4 bg-gradient-to-r from-violet-600 to-indigo-600 text-white font-bold rounded-xl hover:shadow-[0_0_30px_rgba(139,92,246,0.3)] transition-all flex items-center gap-2 uppercase tracking-widest text-xs font-poppins">
+                    Launch Project <ChevronRight size={16} />
+                  </a>
+                  <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="px-6 md:px-8 py-4 bg-slate-900 border border-slate-800 text-white font-bold rounded-xl hover:bg-slate-800 transition-all flex items-center gap-2 uppercase tracking-widest text-xs font-poppins">
+                    Direct Whatsapp <MessageCircle size={16} className="text-[#25D366]" />
+                  </a>
                 </div>
               </div>
-              <div className="relative order-1 md:order-2">
-                <div className="relative w-56 h-56 sm:w-72 sm:h-72 md:w-96 md:h-96 mx-auto">
-                  <div className="absolute inset-0 rounded-3xl border-2 border-amber-500/30 rotate-6 -z-10" />
-                  <div className="w-full h-full rounded-3xl overflow-hidden border-2 border-white/10 shadow-2xl relative bg-[#111]">
-                    <img src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_original/v1/attachments/profile/photo/a2ef8103ed718368adca4eca8fa1c844-1623160621089/e9456dca-26dd-4911-90f7-2c681e60e3d1.png" alt="Profile" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" />
+
+              {/* Glowing Avatar Frame */}
+              <div className="relative order-1 lg:order-2 lg:col-span-5 flex justify-center">
+                <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-[400px] md:h-[400px]">
+                  {/* Glowing Backdrops */}
+                  <div className="absolute inset-0 bg-violet-600/20 rounded-3xl blur-3xl -z-20 rotate-6" />
+                  <div className="absolute inset-0 rounded-3xl border-2 border-violet-500/20 rotate-6 -z-10" />
+                  <div className="absolute inset-0 rounded-3xl border-2 border-amber-500/10 -rotate-3 -z-10" />
+                  
+                  <div className="w-full h-full rounded-3xl overflow-hidden border border-slate-800/80 shadow-2xl relative bg-slate-950">
+                    <img src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_original/v1/attachments/profile/photo/a2ef8103ed718368adca4eca8fa1c844-1623160621089/e9456dca-26dd-4911-90f7-2c681e60e3d1.png" alt="Prodip Roy Profile" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105" />
+                    
+                    {/* Live Badge */}
+                    <div className="absolute bottom-4 left-4 bg-slate-950/80 border border-slate-800 backdrop-blur px-3 py-1.5 rounded-xl flex items-center gap-2">
+                      <span className="w-2.5 h-2.5 bg-emerald-500 rounded-full animate-pulse" />
+                      <span className="text-[10px] text-white uppercase font-bold tracking-widest">Available to Hire</span>
+                    </div>
                   </div>
                 </div>
               </div>
+
             </div>
           </section>
 
           {/* About Section */}
-          <section id="about" className="py-16 md:py-32 bg-[#0a0a0a] relative border-t border-white/5 text-left">
-            <div className="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center">
-              <div className="order-2 md:order-1 text-left">
-                <p className="text-amber-500 text-xs font-bold uppercase tracking-[0.3em] mb-4 italic font-poppins">Discover My Story</p>
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-black uppercase italic leading-none mb-6 md:mb-8 font-poppins text-white">Human Creativity <br /><span className="text-amber-500 not-italic">With AI Intel.</span></h2>
-                <p className="text-gray-400 font-inter text-sm md:text-lg leading-relaxed">I am **Prodip Roy**, an Elite Marketing Designer and Developer with over 6 years of expertise. I bridge the gap between human strategy and AI efficiency for global businesses.</p>
+          <section id="about" className="py-16 md:py-32 bg-[#02050f] relative border-t border-slate-900 text-left">
+            <div className="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-20 items-center">
+              <div className="lg:col-span-5">
+                <div className="rounded-3xl overflow-hidden border border-slate-800 aspect-square group shadow-2xl relative text-left">
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent z-10 opacity-70" />
+                  <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1200" alt="Core Automation Process" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" />
+                </div>
               </div>
-              <div className="order-1 md:order-2">
-                <div className="rounded-2xl md:rounded-[3rem] overflow-hidden border-2 border-white/10 aspect-square group shadow-2xl relative text-left">
-                  <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1200" alt="Process" className="w-full h-full object-cover grayscale opacity-60 group-hover:opacity-100 transition-all duration-500" />
+              <div className="lg:col-span-7 space-y-6 text-left">
+                <p className="text-violet-400 text-xs font-bold uppercase tracking-[0.3em] font-poppins">Architect Statement</p>
+                <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tight font-poppins text-white leading-tight">
+                  High Creativity <br />
+                  <span className="bg-gradient-to-r from-violet-400 to-amber-300 bg-clip-text text-transparent">Meets Strategic CRM Logic</span>
+                </h2>
+                <p className="text-slate-400 font-inter text-sm md:text-base leading-relaxed">
+                  I am <strong className="text-white">Prodip Roy</strong>, a results-driven Front-End Web Developer and Email Marketing Specialist with 6+ years of professional freelancing experience. Recognized as a Level 2 Seller on Fiverr and a verified member of the Mailchimp & Co partner program. I specialize in building high-converting, 100% responsive HTML email templates, modern web layouts, and setting up seamless marketing automation workflows. Over the years, I have established a proven track record of delivering tailored digital solutions for global clients, ranging from healthcare brands to professional enterprises.
+                </p>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="p-4 bg-slate-900/40 border border-slate-800/60 rounded-2xl">
+                    <Zap className="text-amber-400 mb-2" size={20} />
+                    <h4 className="text-white font-bold text-sm">Responsive coding</h4>
+                    <p className="text-xs text-slate-500 mt-1">Bulletproof rendering on Outlook and mobile screens.</p>
+                  </div>
+                  <div className="p-4 bg-slate-900/40 border border-slate-800/60 rounded-2xl">
+                    <Cpu className="text-violet-400 mb-2" size={20} />
+                    <h4 className="text-white font-bold text-sm">CRM Integrations</h4>
+                    <p className="text-xs text-slate-500 mt-1">Multi-stage pipeline custom API triggers.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
 
           {/* Platforms Section */}
-          <section id="platforms" className="py-16 md:py-24 border-t border-white/5 text-left">
-            <div className="max-w-7xl mx-auto px-4 md:px-6 text-left">
-              <div className="text-center mb-12 md:mb-16">
-                <p className="text-amber-500 text-xs font-bold uppercase tracking-[0.3em] mb-3 italic font-black font-poppins">Marketplace Presence</p>
-                <h2 className="text-3xl md:text-5xl font-bold tracking-tighter italic uppercase underline decoration-amber-500/10 font-black font-poppins text-white">Freelance Success.</h2>
+          <section id="platforms" className="py-16 md:py-24 border-t border-slate-900/80 text-left bg-slate-950/20">
+            <div className="max-w-7xl mx-auto px-4 md:px-6">
+              <div className="text-center mb-12 md:mb-16 space-y-2">
+                <p className="text-violet-400 text-xs font-bold uppercase tracking-[0.3em] font-poppins">Verified Reputation</p>
+                <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tight font-poppins text-white">Marketplace Portals</h2>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                <div className="p-6 md:p-10 bg-[#111] border border-white/5 rounded-2xl md:rounded-[3rem] group hover:border-amber-500/30 transition-all shadow-2xl text-left">
-                  <div className="flex justify-between items-start mb-6 md:mb-8 text-left">
-                    <div className="p-3 md:p-4 bg-white/5 rounded-xl md:rounded-2xl group-hover:bg-[#14a800]/10 transition-colors">
-                      <img src={upworkLogo} alt="Upwork" className="h-6 md:h-8 w-auto max-w-[100px] md:max-w-[120px] object-contain" />
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {/* Upwork Card */}
+                <div className="p-8 md:p-10 bg-[#070b16] border border-slate-800/80 rounded-3xl group hover:border-[#14a800]/40 transition-all duration-300 shadow-2xl relative overflow-hidden">
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-[#14a800]/5 rounded-full blur-2xl" />
+                  
+                  <div className="flex justify-between items-start mb-8">
+                    <div className="p-4 bg-[#14a800]/10 rounded-2xl border border-[#14a800]/20">
+                      <img src={upworkLogo} alt="Upwork Contract Portal" className="h-7 w-auto max-w-[130px] object-contain" />
                     </div>
-                    <div className="bg-[#14a800] text-white px-3 md:px-4 py-1 md:py-1.5 rounded-full text-[8px] md:text-[10px] font-black uppercase tracking-widest font-poppins flex items-center gap-1.5"><Award size={10} md:size={12} /> Top Rated</div>
-                  </div>
-                  <h3 className="text-xl md:text-2xl font-black uppercase italic mb-6 md:mb-8 font-poppins leading-none">Upwork Top Rated Freelancer</h3>
-                  <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8 font-mono">
-                    <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">276+</p>
-                      <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Total Hours</p>
-                    </div>
-                    <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">100%</p>
-                      <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Job Success</p>
+                    <div className="bg-[#14a800]/10 border border-[#14a800]/20 text-[#14a800] px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest flex items-center gap-1.5">
+                      <Award size={14} /> Top Rated
                     </div>
                   </div>
-                  <a href={upworkLink} target="_blank" className="block w-full py-4 md:py-5 bg-[#14a800] text-white rounded-xl md:rounded-2xl text-[10px] md:text-xs font-black uppercase text-center font-poppins hover:brightness-110 shadow-lg transition-all">View Profile</a>
+                  
+                  <h3 className="text-2xl font-bold uppercase tracking-tight mb-4 text-white">Upwork Professional Expert</h3>
+                  <p className="text-sm text-slate-400 mb-6 leading-relaxed">Certified on custom lead pipeline logic, HubSpot integration projects, and business API scaling operations with a 100% Job Success Score.</p>
+                  
+                  <div className="grid grid-cols-2 gap-4 mb-8">
+                    <div className="bg-slate-950/85 p-4 rounded-2xl border border-slate-900">
+                      <p className="text-amber-400 font-bold text-2xl font-poppins">100%</p>
+                      <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest mt-1">Client Feedback</p>
+                    </div>
+                    <div className="bg-slate-950/85 p-4 rounded-2xl border border-slate-900">
+                      <p className="text-violet-400 font-bold text-2xl font-poppins">Top Tier</p>
+                      <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest mt-1">Freelancer Bracket</p>
+                    </div>
+                  </div>
+                  
+                  <a href={upworkLink} target="_blank" rel="noopener noreferrer" className="block w-full py-4 bg-[#14a800] hover:bg-[#14a800]/90 text-white rounded-xl text-center font-bold text-xs uppercase tracking-widest shadow-lg transition-all">
+                    Access Upwork Profile
+                  </a>
                 </div>
-                <div className="p-6 md:p-10 bg-[#111] border border-white/5 rounded-2xl md:rounded-[3rem] group hover:border-amber-500/30 transition-all shadow-2xl text-left">
-                  <div className="flex justify-between items-start mb-6 md:mb-8 text-left">
-                    <div className="p-3 md:p-4 bg-white/5 rounded-xl md:rounded-2xl group-hover:bg-[#1dbf73]/10 transition-colors">
-                      <img src={fiverrLogo} alt="Fiverr" className="h-6 md:h-8 w-auto max-w-[100px] md:max-w-[120px] object-contain" />
+
+                {/* Fiverr Card */}
+                <div className="p-8 md:p-10 bg-[#070b16] border border-slate-800/80 rounded-3xl group hover:border-[#1dbf73]/40 transition-all duration-300 shadow-2xl relative overflow-hidden">
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-[#1dbf73]/5 rounded-full blur-2xl" />
+                  
+                  <div className="flex justify-between items-start mb-8">
+                    <div className="p-4 bg-[#1dbf73]/10 rounded-2xl border border-[#1dbf73]/20">
+                      <img src={fiverrLogo} alt="Fiverr Contract Portal" className="h-7 w-auto max-w-[130px] object-contain" />
                     </div>
-                    <div className="bg-white/5 text-amber-500 border border-amber-500/20 px-3 md:px-4 py-1 md:py-1.5 rounded-full text-[8px] md:text-[10px] font-black uppercase tracking-widest font-poppins flex items-center gap-1.5"><Trophy size={10} md:size={12} /> Level 2 Seller</div>
-                  </div>
-                  <h3 className="text-xl md:text-2xl font-black uppercase italic mb-6 md:mb-8 font-poppins leading-none">Fiverr Specialist</h3>
-                  <div className="grid grid-cols-2 gap-3 md:gap-4 mb-6 md:mb-8 font-mono">
-                    <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">461+</p>
-                      <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Orders Done</p>
-                    </div>
-                    <div className="bg-white/5 p-4 md:p-5 rounded-xl md:rounded-2xl text-left">
-                      <p className="text-amber-500 font-black text-xl md:text-2xl font-poppins">259+</p>
-                      <p className="text-[8px] md:text-[10px] text-gray-500 uppercase font-black tracking-widest mt-1">Reviews</p>
+                    <div className="bg-[#1dbf73]/10 border border-[#1dbf73]/20 text-[#1dbf73] px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest flex items-center gap-1.5">
+                      <Trophy size={14} /> Level 2 Seller
                     </div>
                   </div>
-                  <a href={fiverrLink} target="_blank" className="block w-full py-4 md:py-5 bg-[#1dbf73] text-white rounded-xl md:rounded-2xl text-[10px] md:text-xs font-black uppercase text-center font-poppins hover:brightness-110 shadow-lg transition-all">View Profile</a>
+                  
+                  <h3 className="text-2xl font-bold uppercase tracking-tight mb-4 text-white">Fiverr Specialist</h3>
+                  <p className="text-sm text-slate-400 mb-6 leading-relaxed">Trusted resource with over 461 completed templates and verified 5-star contract feedback across major global CRM automation buyers.</p>
+                  
+                  <div className="grid grid-cols-2 gap-4 mb-8">
+                    <div className="bg-slate-950/85 p-4 rounded-2xl border border-slate-900">
+                      <p className="text-amber-400 font-bold text-2xl font-poppins">461+</p>
+                      <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest mt-1">Orders Completed</p>
+                    </div>
+                    <div className="bg-slate-950/85 p-4 rounded-2xl border border-slate-900">
+                      <p className="text-violet-400 font-bold text-2xl font-poppins">259+</p>
+                      <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest mt-1">5-Star Reviews</p>
+                    </div>
+                  </div>
+                  
+                  <a href={fiverrLink} target="_blank" rel="noopener noreferrer" className="block w-full py-4 bg-[#1dbf73] hover:bg-[#1dbf73]/90 text-white rounded-xl text-center font-bold text-xs uppercase tracking-widest shadow-lg transition-all">
+                    Access Fiverr Profile
+                  </a>
                 </div>
               </div>
             </div>
           </section>
 
           {/* Skills Section */}
-          <section id="skills" className="py-16 md:py-24 border-t border-white/5 text-left">
+          <section id="skills" className="py-16 md:py-24 border-t border-slate-900 text-left">
             <div className="max-w-7xl mx-auto px-4 md:px-6">
-              <h2 className="text-3xl md:text-5xl font-bold tracking-tighter italic uppercase underline decoration-amber-500/10 font-black font-poppins mb-10 md:mb-16 text-center text-white">Technical Mastery.</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+              <div className="text-center mb-12 md:mb-16 space-y-2">
+                <p className="text-violet-400 text-xs font-bold uppercase tracking-[0.3em] font-poppins">Tech Stack Matrix</p>
+                <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tight font-poppins text-white">Engineering Capabilities</h2>
+              </div>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {skillsData.map((skill, idx) => {
                   const Icon = skill.icon;
                   return (
-                    <div key={idx} className="p-6 md:p-8 bg-[#111] border border-white/5 rounded-2xl md:rounded-[2rem] hover:border-amber-500/50 transition-all text-left">
-                      <div className="w-10 h-10 md:w-12 md:h-12 bg-amber-500/10 text-amber-500 rounded-lg md:rounded-xl flex items-center justify-center mb-4 md:mb-6">
-                        <Icon size={20} md:size={24} />
+                    <div key={idx} className="p-8 bg-slate-900/40 border border-slate-800/60 rounded-3xl hover:border-violet-500/50 hover:-translate-y-1 transition-all duration-300 text-left backdrop-blur-sm">
+                      <div className="w-12 h-12 bg-violet-500/10 text-violet-400 rounded-2xl flex items-center justify-center mb-6 border border-violet-500/20">
+                        <Icon size={24} />
                       </div>
-                      <h3 className="text-lg md:text-xl font-black italic mb-4 md:mb-6 font-poppins text-left text-white">{skill.name}</h3>
-                      <ul className="space-y-2">
-                        {skill.items.map(item => <li key={item} className="text-[9px] md:text-[10px] text-gray-400 font-bold uppercase tracking-widest text-left">• {item}</li>)}
+                      <h3 className="text-lg font-bold mb-4 font-poppins text-left text-white">{skill.name}</h3>
+                      <ul className="space-y-3">
+                        {skill.items.map(item => (
+                          <li key={item} className="text-xs text-slate-400 font-medium flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 bg-violet-500 rounded-full shrink-0" />
+                            {item}
+                          </li>
+                        ))}
                       </ul>
                     </div>
                   );
@@ -2447,34 +2238,58 @@ const App = () => {
           </section>
 
           {/* Work Section */}
-          <section id="work" className="py-16 md:py-24 border-t border-white/5 text-left">
+          <section id="work" className="py-16 md:py-24 border-t border-slate-900 text-left bg-slate-950/20">
             <div className="max-w-7xl mx-auto px-4 md:px-6">
               <div className="flex flex-col md:flex-row justify-between items-center md:items-end gap-6 mb-10 md:mb-16">
-                <div className="text-center md:text-left">
-                  <p className="text-amber-500 text-[10px] md:text-xs font-bold uppercase tracking-[0.3em] mb-2 md:mb-3 italic font-black font-poppins">Portfolio Showcase</p>
-                  <h2 className="text-3xl md:text-5xl font-bold tracking-tighter italic uppercase underline decoration-amber-500/10 font-black font-poppins text-white">Recent Projects.</h2>
+                <div className="text-center md:text-left space-y-2">
+                  <p className="text-violet-400 text-xs font-bold uppercase tracking-[0.3em] font-poppins">Curated Lab Work</p>
+                  <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tight font-poppins text-white">Development Portfolio</h2>
                 </div>
-                <div className="flex flex-wrap justify-center gap-2 p-1 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl font-poppins font-black">
+                
+                <div className="flex flex-wrap justify-center gap-2 p-1.5 bg-slate-950 border border-slate-800 rounded-2xl">
                   {['all', 'web', 'email', 'automation'].map(tab => (
-                    <button key={tab} onClick={() => setActiveTab(tab)} className={`px-4 md:px-5 py-2 rounded-lg md:rounded-xl text-[8px] md:text-[10px] font-black transition-all uppercase tracking-widest ${activeTab === tab ? 'bg-amber-500 text-black shadow-lg shadow-amber-500/20' : 'text-gray-500 hover:text-white'}`}>{tab}</button>
+                    <button 
+                      key={tab} 
+                      onClick={() => setActiveTab(tab)} 
+                      className={`px-5 py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-widest transition-all ${activeTab === tab ? 'bg-gradient-to-r from-violet-600 to-indigo-600 text-white shadow-lg' : 'text-slate-500 hover:text-white'}`}
+                    >
+                      {tab}
+                    </button>
                   ))}
                 </div>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 font-inter">
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {filteredProjects.map((project) => (
-                  <div key={project.id} className="group relative bg-[#111] border border-white/5 rounded-2xl md:rounded-3xl overflow-hidden hover:border-amber-500/30 transition-all flex flex-col shadow-2xl">
-                    <div className="h-48 md:h-64 overflow-hidden relative">
-                      <SafeImage src={project.image} alt={project.title} className="grayscale opacity-40 group-hover:grayscale-0 group-hover:opacity-100" />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent text-left" />
+                  <div key={project.id} className="group bg-[#070b16] border border-slate-800/80 rounded-3xl overflow-hidden hover:border-violet-500/35 transition-all duration-300 flex flex-col shadow-2xl">
+                    <div className="relative overflow-hidden">
+                      <SafeImage src={project.image} alt={project.title} className="grayscale opacity-50 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#070b16] via-slate-950/20 to-transparent" />
                     </div>
-                    <div className="p-5 md:p-6 flex-1 flex flex-col text-left">
-                      <div className="flex flex-wrap gap-2 mb-3 md:mb-4">
-                        {project.tech.map(t => <span key={t} className="px-2 py-1 bg-white/5 border border-white/10 text-[7px] md:text-[8px] font-black rounded text-gray-400 uppercase tracking-widest">{t}</span>)}
+                    
+                    <div className="p-6 flex-1 flex flex-col justify-between text-left">
+                      <div>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                          {project.tech.map(t => (
+                            <span key={t} className="px-2.5 py-1 bg-slate-950 border border-slate-850 text-[9px] font-bold rounded-lg text-slate-400 uppercase tracking-widest">
+                              {t}
+                            </span>
+                          ))}
+                        </div>
+                        <h3 className="text-xl font-bold mb-2 text-white group-hover:text-violet-400 transition-colors tracking-tight font-poppins">
+                          {project.title}
+                        </h3>
+                        <p className="text-xs md:text-sm text-slate-400 mb-6 leading-relaxed font-inter">
+                          {project.description}
+                        </p>
                       </div>
-                      <h3 className="text-lg md:text-xl font-black mb-2 md:mb-3 italic group-hover:text-amber-500 transition-colors uppercase font-poppins text-white">{project.title}</h3>
-                      <p className="text-xs md:text-sm text-gray-400 mb-4 md:mb-6 flex-1 leading-relaxed font-inter">{project.description}</p>
-                      <button onClick={() => project.category === 'web' ? window.open(project.url, '_blank') : openCaseStudy(project)} className="flex items-center gap-2 text-[9px] md:text-[10px] font-black text-white hover:text-amber-500 transition-all uppercase tracking-widest group/btn italic font-poppins font-black">
-                        {project.category === 'web' ? 'View Website' : 'View Case Study'} <MoveRight size={14} className="group-hover/btn:translate-x-1 transition-transform" />
+                      
+                      <button 
+                        onClick={() => project.category === 'web' ? window.open(project.url, '_blank') : openCaseStudy(project)} 
+                        className="flex items-center gap-1.5 text-xs font-bold text-violet-400 group-hover:text-white transition-all uppercase tracking-widest font-poppins shrink-0"
+                      >
+                        {project.category === 'web' ? 'View Live URL' : 'Launch Case Studio'} 
+                        <MoveRight size={14} className="group-hover:translate-x-1.5 transition-transform" />
                       </button>
                     </div>
                   </div>
@@ -2484,51 +2299,125 @@ const App = () => {
           </section>
 
           {/* Testimonials */}
-          <section id="testimonials" className="py-16 md:py-24 border-t border-white/5 text-left overflow-hidden bg-white/[0.01]">
-            <div className="max-w-7xl mx-auto px-4 md:px-6 text-left">
-              <div className="text-center mb-12 md:mb-20">
-                <p className="text-amber-500 text-[10px] md:text-xs font-bold uppercase tracking-[0.4em] mb-3 md:mb-4 italic font-black font-poppins text-center">World-class Feedback</p>
-                <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter italic uppercase underline decoration-amber-500/10 font-black font-poppins text-white text-center">Client Reviews.</h2>
+          <section id="testimonials" className="py-16 md:py-24 border-t border-slate-900 text-left overflow-hidden bg-slate-950/10">
+            <div className="max-w-7xl mx-auto px-4 md:px-6">
+              <div className="text-center mb-12 md:mb-20 space-y-2">
+                <p className="text-violet-400 text-xs font-bold uppercase tracking-[0.3em] font-poppins">Trust Architecture</p>
+                <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tight font-poppins text-white">Client Testimonials</h2>
               </div>
               <TestimonialSlider />
             </div>
           </section>
 
           {/* Contact Section */}
-          <section id="contact" className="py-16 md:py-24 border-t border-white/5 text-left">
-            <div className="max-w-4xl mx-auto px-4 md:px-6 text-center">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-black italic uppercase underline decoration-amber-500/10 font-poppins mb-10 md:mb-12 text-center text-white">Scale Your Brand.</h2>
-              <form onSubmit={handleFormSubmit} className="space-y-4 md:space-y-6 text-left max-w-2xl mx-auto text-left">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 text-left">
-                  <input type="text" name="name" required placeholder="YOUR NAME" className="w-full px-5 md:px-6 py-3 md:py-4 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl focus:border-amber-500 focus:outline-none transition-all placeholder:text-gray-700 font-bold text-[10px] md:text-xs text-white text-left" />
-                  <input type="email" name="email" required placeholder="EMAIL ADDRESS" className="w-full px-5 md:px-6 py-3 md:py-4 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl focus:border-amber-500 focus:outline-none transition-all placeholder:text-gray-700 font-bold text-[10px] md:text-xs text-white text-left" />
+          <section id="contact" className="py-16 md:py-24 border-t border-slate-900 text-left relative overflow-hidden">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-violet-600/10 rounded-full blur-[120px] pointer-events-none" />
+            
+            <div className="max-w-4xl mx-auto px-4 md:px-6 relative z-10">
+              <div className="text-center mb-10 md:mb-14 space-y-2">
+                <p className="text-violet-400 text-xs font-bold uppercase tracking-[0.3em] font-poppins">Ready to scale?</p>
+                <h2 className="text-3xl md:text-5xl lg:text-6xl font-black uppercase tracking-tight font-poppins text-white">
+                  Let's Connect
+                </h2>
+              </div>
+
+              <form onSubmit={handleFormSubmit} className="space-y-6 max-w-2xl mx-auto text-left">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                  <div className="space-y-1.5 text-left">
+                    <label className="text-[10px] font-bold uppercase text-slate-500 tracking-widest">Full Name</label>
+                    <input 
+                      type="text" 
+                      name="name" 
+                      required 
+                      placeholder="Your name" 
+                      className="w-full px-5 py-4 bg-slate-950 border border-slate-800 rounded-xl focus:border-violet-500 focus:outline-none transition-all placeholder:text-slate-600 font-medium text-sm text-white" 
+                    />
+                  </div>
+                  <div className="space-y-1.5 text-left">
+                    <label className="text-[10px] font-bold uppercase text-slate-500 tracking-widest">Email Address</label>
+                    <input 
+                      type="email" 
+                      name="email" 
+                      required 
+                      placeholder="Your email address" 
+                      className="w-full px-5 py-4 bg-slate-950 border border-slate-800 rounded-xl focus:border-violet-500 focus:outline-none transition-all placeholder:text-slate-600 font-medium text-sm text-white" 
+                    />
+                  </div>
                 </div>
-                <div className="relative text-left">
-                  <textarea name="message" required value={contactMessage} onChange={(e) => setContactMessage(e.target.value)} placeholder="PROJECT REQUIREMENTS..." rows="5" className="w-full px-5 md:px-6 py-3 md:py-4 bg-white/5 border border-white/10 rounded-xl md:rounded-2xl focus:border-amber-500 focus:outline-none transition-all placeholder:text-gray-700 font-bold text-[10px] md:text-xs font-inter text-white text-left" />
-                  <button type="button" onClick={polishMessage} disabled={!contactMessage.trim() || isPolishing} className="absolute bottom-3 md:bottom-4 right-3 md:right-4 px-4 md:px-5 py-2 md:py-2.5 bg-amber-500/10 hover:bg-amber-500/20 text-amber-500 border border-amber-500/20 rounded-lg md:rounded-xl text-[8px] md:text-[10px] font-black uppercase tracking-widest flex items-center gap-2 transition-all disabled:opacity-50 italic font-poppins">AI Polish ✨</button>
+
+                <div className="space-y-1.5 text-left relative">
+                  <label className="text-[10px] font-bold uppercase text-slate-500 tracking-widest">Project Requirements</label>
+                  <textarea 
+                    name="message" 
+                    required 
+                    value={contactMessage} 
+                    onChange={(e) => setContactMessage(e.target.value)} 
+                    placeholder="Describe your goals, requirements, or tech integrations..." 
+                    rows="6" 
+                    className="w-full px-5 py-4 bg-slate-950 border border-slate-800 rounded-xl focus:border-violet-500 focus:outline-none transition-all placeholder:text-slate-600 font-medium text-sm text-white font-inter" 
+                  />
+                  
+                  <button 
+                    type="button" 
+                    onClick={polishMessage} 
+                    disabled={!contactMessage.trim() || isPolishing} 
+                    className="absolute bottom-4 right-4 px-4 py-2.5 bg-violet-600/10 hover:bg-violet-600/20 text-violet-400 border border-violet-500/30 rounded-xl text-[10px] font-bold uppercase tracking-widest flex items-center gap-1.5 transition-all disabled:opacity-40 font-poppins"
+                  >
+                    {isPolishing ? <RefreshCw size={12} className="animate-spin" /> : <Sparkles size={12} />} 
+                    AI Polish ✨
+                  </button>
                 </div>
-                {formStatus === 'success' && <div className="p-4 bg-green-500/10 border border-green-500/20 text-green-500 rounded-xl text-xs font-bold uppercase text-center mb-4">Message sent successfully!</div>}
-                {formStatus === 'error' && <div className="p-4 bg-red-500/10 border border-red-500/20 text-red-500 rounded-xl text-xs font-bold uppercase text-center mb-4">Something went wrong. Please try again.</div>}
-                <button type="submit" disabled={formStatus === 'loading'} className="w-full py-4 md:py-6 bg-amber-500 text-black font-black rounded-xl md:rounded-2xl hover:bg-amber-400 transition-all flex items-center justify-center gap-2 group uppercase tracking-[0.2em] text-[10px] md:text-xs font-poppins text-center">
-                  {formStatus === 'loading' ? 'Submitting...' : 'Submit'} <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
+
+                {formStatus === 'success' && (
+                  <div className="p-4 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-xl text-xs font-bold uppercase text-center">
+                    Thank you! Your message was sent successfully.
+                  </div>
+                )}
+                {formStatus === 'error' && (
+                  <div className="p-4 bg-red-500/10 border border-red-500/20 text-red-400 rounded-xl text-xs font-bold uppercase text-center">
+                    Oops! Something went wrong. Please retry.
+                  </div>
+                )}
+
+                <button 
+                  type="submit" 
+                  disabled={formStatus === 'loading'} 
+                  className="w-full py-4.5 bg-gradient-to-r from-violet-600 to-indigo-600 hover:shadow-[0_0_30px_rgba(139,92,246,0.3)] text-white font-bold rounded-xl transition-all flex items-center justify-center gap-2 uppercase tracking-widest text-xs font-poppins"
+                >
+                  {formStatus === 'loading' ? (
+                    <span className="flex items-center gap-1.5"><RefreshCw size={14} className="animate-spin" /> Submitting...</span>
+                  ) : (
+                    <span className="flex items-center gap-1">Send Requirement Message <ChevronRight size={14} /></span>
+                  )}
                 </button>
               </form>
             </div>
           </section>
+
         </div>
       ) : (
         <CaseStudyView project={selectedProject} onBack={closeCaseStudy} />
       )}
 
       {/* Footer */}
-      <footer className="py-12 md:py-16 border-t border-white/5 bg-[#050505] font-poppins text-left">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row justify-between items-center gap-8 md:gap-10">
+      <footer className="py-16 border-t border-slate-900 bg-slate-950 font-poppins text-left">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row justify-between items-center gap-8">
           <BrandLogo />
-          <div className="flex flex-wrap justify-center gap-4 md:gap-6">
-            <a href={linkedinLink} target="_blank" className="text-gray-500 hover:text-amber-500 transition-all"><Linkedin size={18} md:size={20} /></a>
-            <a href={facebookLink} target="_blank" className="text-gray-500 hover:text-amber-500 transition-all"><Facebook size={18} md:size={20} /></a>
-            <a href={instagramLink} target="_blank" className="text-gray-500 hover:text-amber-500 transition-all"><Instagram size={18} md:size={20} /></a>
-            <a href={whatsappLink} target="_blank" className="text-gray-500 hover:text-amber-500 transition-all"><MessageCircle size={18} md:size={20} /></a>
+          
+          <div className="flex flex-wrap justify-center gap-5">
+            <a href={linkedinLink} target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-400 hover:text-white hover:border-violet-500/40 transition-all"><Linkedin size={18} /></a>
+            <a href={facebookLink} target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-400 hover:text-white hover:border-violet-500/40 transition-all"><Facebook size={18} /></a>
+            <a href={instagramLink} target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-400 hover:text-white hover:border-violet-500/40 transition-all"><Instagram size={18} /></a>
+            <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-400 hover:text-white hover:border-violet-500/40 transition-all"><MessageCircle size={18} /></a>
+          </div>
+        </div>
+        
+        <div className="max-w-7xl mx-auto px-4 md:px-6 mt-12 pt-8 border-t border-slate-900/60 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+          <p>© {new Date().getFullYear()} Prodip Roy. All rights reserved.</p>
+          <div className="flex gap-4">
+            <span className="hover:text-slate-300 transition-colors">Level 2 Seller</span>
+            <span>•</span>
+            <span className="hover:text-slate-300 transition-colors">Top Rated Expert</span>
           </div>
         </div>
       </footer>
